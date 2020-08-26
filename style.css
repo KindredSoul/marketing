@@ -86,16 +86,13 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 0 /** 1px solid grey; **/
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers **/
 
-* {
-  border: 1px solid grey;
-}
+/* HTML5 display-role reset for older browsers **/
 
 article,
 aside,
@@ -139,10 +136,9 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-size: 2rem;
   font-family: "Heebo", sans-serif;
-  color: #4f4f4f;
   text-decoration: none;
+  color: rgba(48, 64, 77, 0.8);
 }
 
 i {
@@ -166,36 +162,36 @@ header .logoName img {
   width: 70%;
 }
 
-header .headerNav{
-    /* border: 1px solid black; */
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2%;
+header .headerNav {
+  /* border: 1px solid black; */
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
 }
-header .headerNav span{
-    border: thin solid gray;
-    width: 0;
-    height: 80%;
+header .headerNav span {
+  border: thin solid gray;
+  width: 0;
+  height: 80%;
 }
-header .headerNav a{
-    font-size: 100%;
-    text-decoration: none;
-    color: rgb(255, 94, 0);
+header .headerNav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(255, 94, 0);
 }
-header .headerNav .btn{
-    /* border: 1px solid black; */
-    padding: 2% 3%;
-    border-radius: 50px;
-    color: white;
-    background-color: rgb(255, 94, 0);
-    /* transition: 1s; */
+header .headerNav .btn {
+  /* border: 1px solid black; */
+  padding: 2% 3%;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(255, 94, 0);
+  /* transition: 1s; */
 }
-header .headerNav .btn:hover{
-    transition: 1s;
-    background-color: white;
-    color: rgb(255, 94, 0);
+header .headerNav .btn:hover {
+  transition: 1s;
+  background-color: white;
+  color: rgb(255, 94, 0);
 }
 header .headerNav .btn:hover {
   transition: 1s;
@@ -210,54 +206,104 @@ header .headerNav .btn:hover {
   background-image: url("/Images/donation.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
 .contentColumn {
-    margin-left: 2%;
-    align-items: center;
-    justify-content: center;
+  padding: 4%;
+  align-items: center;
+  justify-content: center;
   font-size: 2rem;
   line-height: 1.5;
   color: rgba(48, 64, 77, 0.8);
 }
 
 .heroContainer {
-  margin-left: 2%;
+  padding: 4%;
   align-items: center;
   justify-content: center;
+  font-size: 2rem;
   line-height: 1.5;
   text-decoration: none;
+  color: rgba(48, 64, 77, 0.8);
+}
+
+.contentColumn h1 {
+  padding: 0%;
+  text-decoration: none;
+  font-size: 3.1rem;
 }
 
 .heroContainer h2 a {
-    color: coral;
-    text-decoration: none;
-    font-size: 2.1rem;
+  color: coral;
+  text-decoration: none;
+  font-size: 2.5rem;
 }
 
 .howReplateWorks {
-    background: #f0c692;
+  background: #f0c692;
+  font-size: 2rem;
 }
 
 .replateContent {
-  font-size: 1.5rem;
-  padding: 4%;
+  font-size: 2rem;
 }
 
-.howReplateWorks h1 {
+.replateContent h3 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.howReplateWorks h2 {
   padding: 4%;
   font-size: 4.7rem;
   text-align: center;
 }
 
+.howReplateWorks h3 {
+  font-size: 3rem;
+}
+
+.step1,
+.step2,
+.step3 {
+  padding: 2%;
+  margin-left: 2%;
+}
+
 .banner {
   background-color: #ddd4a0;
+  font-size: 2rem;
+}
+
+.bannerContent1 h2 {
+  padding: 2%;
+  font-size: 4.7rem;
+  
+}
+
+.banner p {
+  font-size: 2rem;
+  margin-left: 2%;
+}
+
+.bannerContent1 {
+  padding: 2%;
+}
+
+.bannerContent2 {
+  display: flex;
   padding: 4%;
+  text-decoration: none;
+}
+
+.bannerContent2 a {
+  margin-left: 1%;
+  text-decoration: none;
+  color: #d35400;
 }
 
 footer {
@@ -283,7 +329,6 @@ footer div {
   align-items: center;
 }
 
-
 .footerNav {
   display: flex;
   flex-direction: column;
@@ -303,7 +348,6 @@ nav.social a {
   display: flex;
   margin: 2%, 2%;
 }
-
 
 /* =================== About Us Page Styles============= */
 .aboutProduct {
