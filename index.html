@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Replate</title>
+    <script
+      src="https://kit.fontawesome.com/4d99540586.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
 
@@ -13,7 +17,7 @@
 
     <header>
       <div class="logoName">
-        <img src="Images/Logo.png" alt="Company Logo">
+        <img src="/Images/Logo.png" alt="Company Logo">
         <!-- <h2>Replate</h2> -->
     </div>
     <nav class="headerNav">
@@ -28,24 +32,22 @@
 
     <!--Content starts here-->
 
-    <section class="mainContent">
+    
+    <section class="mContent">
+      <div class="topImage"></div>
       <div class="contentColumn">
-        <h1>Lorem ipsum dolor corrupti laborum beatae</h1>
+        <h1>Food Rescue, On Demand</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-          debitis, dicta nostrum corrupti laborum beatae, nisi dolore impedit
-          aperiam consectetur vero assumenda velit amet sint ea nemo dignissimos
-          eaque accusantium.
+          Our technology platform enables businesses to schedule on-demand pickups for their surplus food. Replate’s food rescuers bring your donated food directly to those experiencing food insecurity in your community.
         </p>
-        <button>Login</button>
       </div>
       <div class="heroContainer">
         <div class="heroColumn1">
-              <h3>Donate Food</h3>
+              <h2><a href="#">Donate Food</a></h2>
               <p>Businesses can easily donate surplus food.</p>
             </div>
             <div class="heroColumn2">
-              <h3>Receive Food Donations</h3>
+              <h2><a href="#">Receive Food Donations</a></h2>
               <p>Nonprofits receive high-quality donations from our partners.</p>
             </div>
         </div>
@@ -53,9 +55,19 @@
     </section>
     <section class="howReplateWorks">
       <div class="replateContent">
-        <div class="step-text">
-          <h3>Request a pickup</h3>
-          <p>From your dashboard select a day and time for your food to be picked up.</p>
+        <h1>How Replate Works</h1>
+        <div class="step1">
+          <i class="fas fa-user-plus"></i>
+          <h3>Sign up to receive food</h3>
+          <p>Use our online form to sign up as a nonprofit.</p>
+        <div class="step2">
+          <i class="fas fa-calendar-alt"></i>
+          <h3>Schedule your first dropoff</h3>
+          <p>Our team will setup a call with you, to understand your organizations capacity and needs.</p>
+        <div class="step3">
+          <i class="fas fa-smile-wink"></i>
+          <h3>Enjoy your food donations</h3>
+          <p>Our professional food rescuers will ensure a smooth delivery to your facility.</p>
         </div>
       </div>
     </section>
@@ -73,10 +85,21 @@
 
     <footer>
       <nav class="footerNav">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Login</a>
-        <a href="">Sign Up</a>
+          <a href="index.html">Home</a><span></span>
+          <a href="about.html">About Us</a><span></span>
+          <a href="" class="btn">Login</a><span></span>
+          <a href="" class="btn">Sign Up</a>
+      </nav>
+      <nav class="social">
+        <a href="http://instagram.com" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="http://facebook.com" target="_blank"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+        <a href="http://twitter.com" target="_blank"
+          ><i class="fab fa-twitter-square"></i
+        ></a>
       </nav>
     </footer>
 
