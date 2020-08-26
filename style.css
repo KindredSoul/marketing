@@ -166,31 +166,36 @@ header .logoName img {
   width: 70%;
 }
 
-header .headerNav {
-  /* border: 1px solid black; */
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 2%;
+header .headerNav{
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
 }
-header .headerNav span {
-  border: thin solid gray;
-  width: 0;
-  height: 80%;
+header .headerNav span{
+    border: thin solid gray;
+    width: 0;
+    height: 80%;
 }
-header .headerNav a {
-  font-size: 1.8rem;
-  text-decoration: none;
-  color: rgb(255, 94, 0);
+header .headerNav a{
+    font-size: 100%;
+    text-decoration: none;
+    color: rgb(255, 94, 0);
 }
-header .headerNav .btn {
-  /* border: 1px solid black; */
-  padding: 2% 3%;
-  border-radius: 50px;
-  color: white;
-  background-color: rgb(255, 94, 0);
-  /* transition: 1s; */
+header .headerNav .btn{
+    /* border: 1px solid black; */
+    padding: 2% 3%;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(255, 94, 0);
+    /* transition: 1s; */
+}
+header .headerNav .btn:hover{
+    transition: 1s;
+    background-color: white;
+    color: rgb(255, 94, 0);
 }
 header .headerNav .btn:hover {
   transition: 1s;
@@ -211,10 +216,11 @@ header .headerNav .btn:hover {
   justify-content: center;
 }
 
+
 .contentColumn {
-  margin-left: 2%;
-  align-items: center;
-  justify-content: center;
+    margin-left: 2%;
+    align-items: center;
+    justify-content: center;
   font-size: 2rem;
   line-height: 1.5;
   color: rgba(48, 64, 77, 0.8);
@@ -229,13 +235,13 @@ header .headerNav .btn:hover {
 }
 
 .heroContainer h2 a {
-  color: coral;
-  text-decoration: none;
-  font-size: 2.1rem;
+    color: coral;
+    text-decoration: none;
+    font-size: 2.1rem;
 }
 
 .howReplateWorks {
-  background: #f0c692;
+    background: #f0c692;
 }
 
 .replateContent {
@@ -277,6 +283,7 @@ footer div {
   align-items: center;
 }
 
+
 .footerNav {
   display: flex;
   flex-direction: column;
@@ -297,7 +304,6 @@ nav.social a {
   margin: 2%, 2%;
 }
 
-/* ================== Home Page Styles================== */
 
 /* =================== About Us Page Styles============= */
 .aboutProduct {
