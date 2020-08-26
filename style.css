@@ -156,6 +156,8 @@ header {
   align-items: center;
   padding: 1% 0;
   border-bottom: 1px solid black;
+  /* Header was causing a horizontal scrollbar to appear  */
+  overflow: hidden;
 }
 header .logoName {
   display: flex;
@@ -271,6 +273,9 @@ footer {
   color: #fff;
   padding: 2%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer a {
@@ -282,9 +287,9 @@ footer a:hover {
 }
 footer div {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 
@@ -294,6 +299,10 @@ footer div {
   align-items: center;
   width: 48%;
   padding: 2%;
+}
+
+.footerNav a{
+    margin: 1% 0;
 }
 
 .social {
@@ -308,6 +317,11 @@ nav.social a {
   margin: 2%, 2%;
 }
 
+
+footer .copyright{
+    text-align: center;
+    width: 100%;
+}
 
 /* =================== About Us Page Styles============= */
 .mainContent{
@@ -344,20 +358,44 @@ nav.social a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* align-items: center; */
-  /* flex-direction: column; */
 }
 .cardContainer .card {
   width: 45%;
   margin: 3% 0;
   color: white;
   text-align: left;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(https://i.redd.it/xox1cml7nge51.jpg);
+  background-size: cover;
   background-position: center;
   border-radius: 0 20px 0 20px;
-  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
+  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #a8a6a68c;
   overflow: hidden;
 }
+.cardContainer .card1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/brian_hague.png);
+}
+.cardContainer .card2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/ashton_turner.jpg);
+}
+.cardContainer .card3{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/emilio_ramirez.jpg);
+}
+.cardContainer .card4{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/rohith_sachdeva.jpg);
+}
+.cardContainer .card5{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/rod_hentringer.jpg);
+}
+.cardContainer .card6{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/brian_hague.png);
+}
+.cardContainer .card7{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/brian_hague.png);
+}
+.cardContainer .card8{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/jabril_github.jpg);
+}
+
+
 .card .cardText{
     margin: 4% 5%;
     display: flex;
@@ -374,15 +412,8 @@ nav.social a {
 }
 .card .devPhoto {
     display: none;
-  width: 100%;
-  border-bottom: 1px solid black;
-  border-radius: 0 20px 0 20px;
-  margin: -120px 0 0 0;
 }
 
-footer .copyright{
-    width: 100%;
-}
 /* ====================== Media Styles ================= */
 @media(min-width: 500px){
     header .headerNav a{
@@ -403,8 +434,71 @@ footer .copyright{
       font-size: 2.4rem;
   }
   
+  
+footer {
+    font-size: 2.4rem;
+}
+  
+  .social {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav.social a {
+    display: flex;
+    margin: 2%, 2%;
+  }
+  
+  footer .copyright{
+      text-align: center;
+      width: 100%;
+      margin: 1% 0;
+  }
+  
 }
 
 @media(min-width: 800px){
-
+    header {
+        flex-direction: row;
+        align-items: center;
+      }
+      header .headerNav{
+          /* border: 1px solid black; */
+          width: 80%;
+      }
+      header .headerNav span{
+          height: 60px;
+      }
+      header .headerNav a{
+          font-size: 3.5rem;
+      }
+    
+    .aboutProduct h2,
+    .aboutDevs h2 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    .aboutProduct p,
+    .aboutDevs p {
+      font-size: 2.5rem;
+    }
+    .cardContainer .card {
+      color: black;
+      background-image: none;
+    }
+    .card .devName{
+        font-size: 4.6rem
+    }
+    .card .devRole{
+        font-size: 3.5rem;
+    }
+    .card .devPhoto {
+        display: block;
+      width: 100%;
+      border-radius: 0 20px 0 20px;
+      margin: -50px 0 0 0;
+    }
+    
 }
