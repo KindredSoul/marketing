@@ -423,6 +423,7 @@ footer .copyright{
 }
 .cardContainer .card3{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/emilio_ramirez.jpg);
+    height: 250px;
 }
 .cardContainer .card4{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/rohith_sachdeva.jpg);
@@ -431,13 +432,13 @@ footer .copyright{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/rod_hentringer.jpg);
 }
 .cardContainer .card6{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/brian_hague.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/jabril_github.jpg);
 }
 .cardContainer .card7{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/brian_hague.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url();
 }
 .cardContainer .card8{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/jabril_github.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url();
 }
 
 
@@ -532,6 +533,10 @@ footer {
     .cardContainer .card {
       color: black;
       background-image: none;
+    }
+
+    .cardContainer .card3{
+        height: auto;
     }
     .card .devName{
         font-size: 4.6rem

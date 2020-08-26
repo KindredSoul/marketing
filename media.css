@@ -1,0 +1,89 @@
+/* ====================== Media Styles ================= */
+@media (min-width: 500px) {
+  header .headerNav a {
+    font-size: 2.5rem;
+  }
+  .aboutProduct h2,
+  .aboutDevs h2 {
+    font-size: 4rem;
+  }
+  .aboutProduct p,
+  .aboutDevs p {
+    font-size: 2rem;
+  }
+  .card .devName {
+    font-size: 3rem;
+  }
+  .card .devRole {
+    font-size: 2.4rem;
+  }
+
+  footer {
+    font-size: 2.4rem;
+  }
+
+  .social {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav.social a {
+    display: flex;
+    margin: 2%, 2%;
+  }
+
+  footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin: 1% 0;
+  }
+}
+
+@media (min-width: 800px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+  }
+  header .headerNav {
+    /* border: 1px solid black; */
+    width: 80%;
+  }
+  header .headerNav span {
+    height: 60px;
+  }
+  header .headerNav a {
+    font-size: 3.5rem;
+  }
+
+  .aboutProduct h2,
+  .aboutDevs h2 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .aboutProduct p,
+  .aboutDevs p {
+    font-size: 2.5rem;
+  }
+  .cardContainer .card {
+    color: black;
+    background-image: none;
+  }
+
+  .cardContainer .card3 {
+    height: auto;
+  }
+  .card .devName {
+    font-size: 4.6rem;
+  }
+  .card .devRole {
+    font-size: 3.5rem;
+  }
+  .card .devPhoto {
+    display: block;
+    width: 100%;
+    border-radius: 0 20px 0 20px;
+    margin: -50px 0 0 0;
+  }
+}
