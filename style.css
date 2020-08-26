@@ -147,9 +147,13 @@ i {
 /* ============================ Header ================ */
 header {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   padding: 1% 0;
   border-bottom: 1px solid black;
+  /* Header was causing a horizontal scrollbar to appear  */
+  overflow: hidden;
 }
 header .logoName {
   display: flex;
@@ -162,36 +166,38 @@ header .logoName img {
   width: 70%;
 }
 
-header .headerNav {
-  /* border: 1px solid black; */
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 2%;
+header .headerNav{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
 }
-header .headerNav span {
-  border: thin solid gray;
-  width: 0;
-  height: 80%;
+header .headerNav span{
+    border-right: thin solid gray;
+    width: 0;
+    height: 20px;
 }
-header .headerNav a {
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: rgb(255, 94, 0);
+header .headerNav a{
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 2%;
+    color: rgb(255, 94, 0);
 }
-header .headerNav .btn {
-  /* border: 1px solid black; */
-  padding: 2% 3%;
-  border-radius: 50px;
-  color: white;
-  background-color: rgb(255, 94, 0);
-  /* transition: 1s; */
+header .headerNav .btn{
+    /* border: 1px solid black; */
+    padding: 1% 2.5%;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(255, 94, 0);
+    /* transition: 1s; */
 }
-header .headerNav .btn:hover {
-  transition: 1s;
-  background-color: white;
-  color: rgb(255, 94, 0);
+header .headerNav .btn:hover{
+    transition: 1s;
+    background-color: white;
+    color: rgb(255, 94, 0);
 }
 header .headerNav .btn:hover {
   transition: 1s;
@@ -313,6 +319,9 @@ footer {
   color: #fff;
   padding: 2%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer a {
@@ -324,9 +333,9 @@ footer a:hover {
 }
 footer div {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .footerNav {
@@ -335,6 +344,10 @@ footer div {
   align-items: center;
   width: 48%;
   padding: 2%;
+}
+
+.footerNav a{
+    margin: 1% 0;
 }
 
 .social {
@@ -349,14 +362,24 @@ nav.social a {
   margin: 2%, 2%;
 }
 
+
+footer .copyright{
+    text-align: center;
+    width: 100%;
+}
+
 /* =================== About Us Page Styles============= */
+.mainContent{
+    padding: 2%;
+}
+
 .aboutProduct {
   /* border: 1px solid black; */
   margin-bottom: 4%;
   padding: 2%;
   text-align: center;
   border-radius: 0 20px 0 20px;
-  box-shadow: 5px 5px 10px black, -1px -1px 10px black;
+  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
 }
 .aboutProduct h2,
 .aboutDevs h2 {
@@ -365,7 +388,7 @@ nav.social a {
 }
 .aboutProduct p,
 .aboutDevs p {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .aboutDevs {
@@ -373,44 +396,154 @@ nav.social a {
   text-align: center;
   padding: 2% 3;
   border-radius: 0 20px 0 20px;
-  box-shadow: 5px 5px 10px black, -1px -1px 10px black;
+  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
 }
 .aboutDevs .cardContainer {
   /* border: 1px solid black; */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* align-items: center; */
-  /* flex-direction: column; */
 }
 .cardContainer .card {
   width: 45%;
   margin: 3% 0;
-  padding: 1%;
-  border-radius: 2rem;
-  border: 1px solid black;
-  background: radial-gradient(
-      circle at 50% 0%,
-      rgba(255, 94, 0, 1) 50%,
-      rgba(255, 255, 255, 0.2) 34%,
-      transparent
-    ),
-    radial-gradient(
-        circle at 10% 100%,
-        rgba(255, 94, 0, 1) 50%,
-        rgba(255, 255, 255, 1) 34%
-      )
-      /* radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent), */;
-  background-color: rgb(255, 94, 0);
+  color: white;
+  text-align: left;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #a8a6a68c;
+  overflow: hidden;
 }
-.cardContainer .card > * {
-  margin: 2%;
+.cardContainer .card1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/brian_hague.png);
+}
+.cardContainer .card2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/ashton_turner.jpg);
+}
+.cardContainer .card3{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/emilio_ramirez.jpg);
+}
+.cardContainer .card4{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/rohith_sachdeva.jpg);
+}
+.cardContainer .card5{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/rod_hentringer.jpg);
+}
+.cardContainer .card6{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/brian_hague.png);
+}
+.cardContainer .card7{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/brian_hague.png);
+}
+.cardContainer .card8{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/jabril_github.jpg);
+}
+
+
+.card .cardText{
+    margin: 4% 5%;
+    display: flex;
+    flex-direction: column;
+}
+.devName, .devRole, .card p{
+    margin: 1% 0;
+}
+.card .devName{
+    font-size: 2.5rem;
+}
+.card .devRole{
+    font-size: 2rem;
 }
 .card .devPhoto {
-  width: 50%;
-  border: 1px solid black;
-  border-radius: 100px;
-  box-shadow: 1px 1px 10px #717171, -1px -1px 10px #717171;
+    display: none;
 }
 
 /* ====================== Media Styles ================= */
+@media(min-width: 500px){
+    header .headerNav a{
+        font-size: 2.5rem;
+    }
+    .aboutProduct h2,
+    .aboutDevs h2 {
+        font-size: 4rem;
+    }
+  .aboutProduct p,
+  .aboutDevs p {
+    font-size: 2rem;
+  }
+  .card .devName{
+      font-size: 3rem;
+  }
+  .card .devRole{
+      font-size: 2.4rem;
+  }
+  
+  
+footer {
+    font-size: 2.4rem;
+}
+  
+  .social {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav.social a {
+    display: flex;
+    margin: 2%, 2%;
+  }
+  
+  footer .copyright{
+      text-align: center;
+      width: 100%;
+      margin: 1% 0;
+  }
+  
+}
+
+@media(min-width: 800px){
+    header {
+        flex-direction: row;
+        align-items: center;
+      }
+      header .headerNav{
+          /* border: 1px solid black; */
+          width: 80%;
+      }
+      header .headerNav span{
+          height: 60px;
+      }
+      header .headerNav a{
+          font-size: 3.5rem;
+      }
+    
+    .aboutProduct h2,
+    .aboutDevs h2 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    .aboutProduct p,
+    .aboutDevs p {
+      font-size: 2.5rem;
+    }
+    .cardContainer .card {
+      color: black;
+      background-image: none;
+    }
+    .card .devName{
+        font-size: 4.6rem
+    }
+    .card .devRole{
+        font-size: 3.5rem;
+    }
+    .card .devPhoto {
+        display: block;
+      width: 100%;
+      border-radius: 0 20px 0 20px;
+      margin: -50px 0 0 0;
+    }
+    
+}
