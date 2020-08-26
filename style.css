@@ -91,7 +91,11 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-HTML5 display-role reset for older browsers
+/* HTML5 display-role reset for older browsers **/
+
+* {
+  border: 1px solid grey;
+}
 
 article,
 aside,
@@ -135,26 +139,31 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-size: 1.6rem;
+  font-size: 2rem;
+  font-family: "Heebo", sans-serif;
+  color: #4f4f4f;
+  text-decoration: none;
 }
 
+i {
+  font-size: 2.5rem;
+}
 /* ============================ Header ================ */
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 1% 0;
-    border-bottom: 1px solid black;
-
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0;
+  border-bottom: 1px solid black;
 }
-header .logoName{
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 20%;
+header .logoName {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  width: 20%;
 }
 
-header .logoName img{
-    width: 70%;
+header .logoName img {
+  width: 70%;
 }
 
 header .headerNav{
@@ -188,81 +197,176 @@ header .headerNav .btn:hover{
     background-color: white;
     color: rgb(255, 94, 0);
 }
-/* ====================== Main Content ====================== */
-.mainContent{
-    padding: 2%;
+header .headerNav .btn:hover {
+  transition: 1s;
+  background-color: white;
+  color: rgb(255, 94, 0);
 }
-/* ================== Home Page Styles================== */
+
+/* ====================== Main Content ====================== */
+
+.topImage {
+  height: 45vh;
+  background-image: url("/Images/donation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.contentColumn {
+    margin-left: 2%;
+    align-items: center;
+    justify-content: center;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: rgba(48, 64, 77, 0.8);
+}
+
+.heroContainer {
+  margin-left: 2%;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.heroContainer h2 a {
+    color: coral;
+    text-decoration: none;
+    font-size: 2.1rem;
+}
+
+.howReplateWorks {
+    background: #f0c692;
+}
+
+.replateContent {
+  font-size: 1.5rem;
+  padding: 4%;
+}
+
+.howReplateWorks h1 {
+  padding: 4%;
+  font-size: 4.7rem;
+  text-align: center;
+}
+
+.banner {
+  background-color: #ddd4a0;
+  padding: 4%;
+}
+
+footer {
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: #fcb131;
+  color: #fff;
+  padding: 2%;
+  display: flex;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #4f4f4f;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  padding: 2%;
+}
+
+.social {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav.social a {
+  display: flex;
+  margin: 2%, 2%;
+}
+
 
 /* =================== About Us Page Styles============= */
-.aboutProduct{
-    /* border: 1px solid black; */
-    margin-bottom: 4%;
-    padding: 2%;
-    text-align: center;
-    border-radius: 0 20px 0 20px;
-    box-shadow: 5px 5px 10px black, -1px -1px 10px black;
+.aboutProduct {
+  /* border: 1px solid black; */
+  margin-bottom: 4%;
+  padding: 2%;
+  text-align: center;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 5px 5px 10px black, -1px -1px 10px black;
 }
 .aboutProduct h2,
-.aboutDevs h2{
-    font-size: 3rem;
-    color: rgb(255, 94, 0);
+.aboutDevs h2 {
+  font-size: 3rem;
+  color: #ff5e00;
 }
 .aboutProduct p,
-.aboutDevs p{
-    font-size: 2rem;
+.aboutDevs p {
+  font-size: 2rem;
 }
 
-.aboutDevs{
-    /* border: 1px solid black; */
-    text-align: center;
-    padding: 2% 3;
-    border-radius: 0 20px 0 20px;
-    box-shadow: 5px 5px 10px black, -1px -1px 10px black;
-
+.aboutDevs {
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 2% 3;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 5px 5px 10px black, -1px -1px 10px black;
 }
-.aboutDevs .cardContainer{
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
+.aboutDevs .cardContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* flex-direction: column; */
 }
-.cardContainer .card{
-    width: 95%;
-
-    margin: 3% 0;
-    padding: 1%;
-    border-radius: 2rem;
-    border: 1px solid black;
-    background-image: url(/Images/Logo.png);
-    background-size: cover;
-    background-position: top -24px right 4px;
-    background-color: rgb(255,94,0);
+.cardContainer .card {
+  width: 45%;
+  margin: 3% 0;
+  padding: 1%;
+  border-radius: 2rem;
+  border: 1px solid black;
+  background: radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 94, 0, 1) 50%,
+      rgba(255, 255, 255, 0.2) 34%,
+      transparent
+    ),
+    radial-gradient(
+        circle at 10% 100%,
+        rgba(255, 94, 0, 1) 50%,
+        rgba(255, 255, 255, 1) 34%
+      )
+      /* radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent), */;
+  background-color: rgb(255, 94, 0);
 }
-.cardContainer .card > *{
-    background: #71717192;
-    margin: 2%;
+.cardContainer .card > * {
+  margin: 2%;
 }
-.cardContainer .card .devName{
-    font-size: 2rem;
-    border-radius: 20px 20px 0 0;
+.card .devPhoto {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 100px;
+  box-shadow: 1px 1px 10px #717171, -1px -1px 10px #717171;
 }
-.cardContainer .card .devRole{
-    font-size: 2rem;
-}
-.cardContainer .card p{
-    font-size: 1.5rem;
-    border-radius: 0 0 20px 20px;
-}
-.card .devPhoto{
-    width: 50%;
-    border: 1px solid black;
-    border-radius: 100px;
-    box-shadow: 1px 1px 10px #717171, -1px -1px 10px #717171;
-
-}
-
 
 /* ====================== Media Styles ================= */
