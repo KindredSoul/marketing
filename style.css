@@ -341,7 +341,7 @@ footer .copyright {
 .aboutProduct .gallery {
 	margin: 1% 0;
 	width: 100%;
-	height: 50vh;
+	height: 40vh;
 	display: flex;
 	justify-content: space-between;
 }
@@ -357,6 +357,7 @@ footer .copyright {
 .aboutProduct h2,
 .aboutDevs h2 {
 	font-size: 3rem;
+	margin-bottom: 1%;
 	color: #ff5e00;
 }
 .aboutProduct p,
@@ -377,68 +378,84 @@ footer .copyright {
 	flex-wrap: wrap;
 }
 .cardContainer .card {
-	width: 45%;
+	/* border: 1px solid black; */
+	width: 100%;
+	height: 310px;
 	margin: 3% 0;
 	color: white;
 	text-align: left;
+	border-radius: 0 20px 0 20px;
+	box-shadow: 0 0 30px #eceaea70, 0 0 30px #eceaea69;
+	overflow: hidden;
 	background-size: cover;
 	background-position: center;
-	border-radius: 0 20px 0 20px;
-	box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #a8a6a68c;
-	overflow: hidden;
+	display: flex;
 }
+
 .cardContainer .card1 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
 		url(Images/brian_hague.png);
 }
 .cardContainer .card2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
 		url(Images/ashton_turner.jpg);
 }
 .cardContainer .card3 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
 		url(Images/emilio_ramirez.jpg);
-	height: 250px;
 }
 .cardContainer .card4 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
 		url(Images/rohith_sachdeva.jpg);
 }
 .cardContainer .card5 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
 		url(Images/rod_hentringer.jpg);
 }
 .cardContainer .card6 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
 		url(Images/jabril_github.jpg);
 }
 .cardContainer .card7 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-		url();
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+		url(Images/tim_mcdonald.jpg);
 }
 .cardContainer .card8 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-		url();
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/michael_hernandez.png);
 }
 
 .card .cardText {
-	margin: 4% 5%;
+	/* border: 1px solid black; */
+	border-radius: 0 20px 0 0;
+	padding: 0 1%;
+	line-height: 25px;
+	width: 100%;
+	height: auto;
 	display: flex;
 	flex-direction: column;
+}
+.card .devName {
+	font-size: 2rem;
+	margin: 2% 0;
+}
+.card .devRole {
+	font-size: 2rem;
+}
+.card p {
+	font-size: 1.6rem;
+}
+.card .devPhoto {
+	display: none;
+	/* border: 1px solid black;
+	width: 30%;
+	height: 100%;
+	border-radius: 0 20px 0 20px; */
 }
 .devName,
 .devRole,
 .card p {
 	margin: 1% 0;
-}
-.card .devName {
-	font-size: 2rem;
-}
-.card .devRole {
-	font-size: 2rem;
-}
-.card .devPhoto {
-	display: none;
 }
 
 /* ====================== Media Styles ================= */
@@ -493,7 +510,7 @@ footer .copyright {
 	}
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
 	header {
 		flex-direction: row;
 		align-items: center;
@@ -506,20 +523,105 @@ footer .copyright {
 		width: 80%;
 	}
 	header .headerNav span {
-		height: 80px;
+		height: 40px;
 	}
 	header .headerNav a {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 
 	.aboutProduct h2,
 	.aboutDevs h2 {
-		font-size: 3rem;
+		font-size: 2.4rem;
 		font-weight: bold;
 	}
 	.aboutProduct p,
 	.aboutDevs p {
-		font-size: 2.5rem;
+		font-size: 1.6rem;
+		line-height: 2.4rem;
+	}
+	.aboutProduct .gallery {
+		margin: 1% 0;
+		width: 100%;
+		height: 50vh;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.aboutProduct .gallery .galleryImg {
+		width: 40%;
+	}
+	.aboutProduct .gallery .galleryImg:nth-child(2) {
+		display: block;
+	}
+	/* .aboutProduct .gallery .galleryImg:nth-child(3) {
+		display: block;
+	} */
+	.cardContainer .card {
+		color: black;
+		background-image: none;
+		width: 100%;
+		height: 20%;
+		display: flex;
+		/* height: 30%; */
+	}
+
+	.card .cardText {
+		/* border: 1px solid black; */
+		border-radius: 0 20px 0 0;
+		margin: 0 0 0 1%;
+		line-height: 25px;
+		width: 100%;
+		height: auto;
+	}
+	.card .devName {
+		font-size: 3rem;
+		margin: 2% 0;
+	}
+	.card .devRole {
+		font-size: 2.4rem;
+	}
+	.card p {
+		font-size: 1.6rem;
+	}
+	.card .devPhoto {
+		/* border: 1px solid black; */
+		display: block;
+		width: 30%;
+		border-radius: 0 20px 0 20px;
+		margin: -50px 0 0 0;
+	}
+	.card:nth-child(5) .devPhoto {
+		width: 45%;
+	}
+}
+
+@media (min-width: 1024px) {
+	header {
+		flex-direction: row;
+		align-items: center;
+	}
+	header .logoName img {
+		width: 50%;
+	}
+	header .headerNav {
+		/* border: 1px solid black; */
+		width: 80%;
+	}
+	header .headerNav span {
+		height: 40px;
+	}
+	header .headerNav a {
+		font-size: 2rem;
+	}
+
+	.aboutProduct h2,
+	.aboutDevs h2 {
+		font-size: 2.4rem;
+		font-weight: bold;
+	}
+	.aboutProduct p,
+	.aboutDevs p {
+		font-size: 1.6rem;
+		line-height: 2.4rem;
 	}
 	.aboutProduct .gallery {
 		margin: 1% 0;
@@ -540,29 +642,55 @@ footer .copyright {
 	.cardContainer .card {
 		color: black;
 		background-image: none;
-		width: 23%;
+		width: 48%;
+		display: flex;
+		height: 62vh;
+	}
+	.card:nth-child(8) {
+		overflow: hidden;
 	}
 
-	.cardContainer .card3 {
-		height: auto;
-	}
 	.card .cardText {
+		/* border: 1px solid black; */
+		border-radius: 0 20px 0 0;
+		margin: 0 0 0 1%;
+		padding: 1%;
 		line-height: 25px;
+		width: 30%;
+		height: auto;
+		overflow: scroll;
+	}
+
+	.card:nth-child(2) p,
+	.card:nth-child(6) p {
+		font-size: 1.3rem;
+	}
+	.card:nth-child(8) p {
+		font-size: 1.2rem;
 	}
 	.card .devName {
-		font-size: 3rem;
-		margin-bottom: 3%;
+		font-size: 2.6rem;
+		margin: 2% 0;
 	}
 	.card .devRole {
-		font-size: 2.5rem;
-	}
-	.card p {
 		font-size: 2rem;
 	}
+	.card p {
+		font-size: 1.6rem;
+	}
+
 	.card .devPhoto {
+		/* border: 1px solid black; */
 		display: block;
-		width: 100%;
+		width: 70%;
 		border-radius: 0 20px 0 20px;
-		margin: -50px 0 0 0;
+	}
+	.card:nth-child(5) .devPhoto {
+		width: 70%;
+	}
+	.card:nth-child(8) .devPhoto {
+		margin-bottom: -200px;
+		object-fit: cover;
+		object-position: center;
 	}
 }
