@@ -86,11 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  border: 1px solid grey;
-=======
-  border: 0 /** 1px solid grey; **/
->>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -184,7 +180,7 @@ header .headerNav span {
   height: 20px;
 }
 header .headerNav a {
-  font-size: 1.8rem;
+  font-size: 1rem;
   text-align: center;
   text-decoration: none;
   margin: 0 2%;
@@ -222,7 +218,6 @@ header .headerNav .btn:hover {
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .topImage2 {
   height: 45vh;
   background-image: url("/Images/donation5.jpg");
@@ -237,17 +232,10 @@ header .headerNav .btn:hover {
 .replateTitle {
   display: flex;
   background: #f0c692;
-=======
-.contentColumn {
-  padding: 4%;
-  align-items: center;
-  justify-content: center;
->>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
   font-size: 2rem;
   width: 100%;
 }
 
-<<<<<<< HEAD
 .replateTitle h2 {
   margin: 4% 4% 4% 4%;
   font-size: 4rem;
@@ -295,48 +283,6 @@ header .headerNav .btn:hover {
 
 .donateContent a {
   text-decoration: none;
-=======
-.heroContainer {
-  padding: 4%;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  line-height: 1.5;
-  text-decoration: none;
-  color: rgba(48, 64, 77, 0.8);
-}
-
-.contentColumn h1 {
-  padding: 0%;
-  text-decoration: none;
-  font-size: 3.1rem;
-}
-
-.heroContainer h2 a {
-  color: coral;
-  text-decoration: none;
-  font-size: 2.5rem;
-}
-
-.howReplateWorks {
-  background: #f0c692;
-  font-size: 2rem;
-}
-
-.replateContent {
-  font-size: 2rem;
-}
-
-.replateContent h3 {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-.howReplateWorks h2 {
-  padding: 4%;
-  font-size: 4.7rem;
-  text-align: center;
->>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
 }
 
 .howReplateWorks h3 {
@@ -356,15 +302,9 @@ header .headerNav .btn:hover {
 }
 
 .bannerContent1 h2 {
-<<<<<<< HEAD
   margin-left: 2%;
   margin-bottom: 2%;
   font-size: 4.7rem;
-=======
-  padding: 2%;
-  font-size: 4.7rem;
-  
->>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
 }
 
 .banner p {
@@ -386,15 +326,12 @@ header .headerNav .btn:hover {
   margin-left: 1%;
   text-decoration: none;
   color: #d35400;
-<<<<<<< HEAD
 }
 
 .horzline {
   margin-top: 2%;
   border-top: 1px dashed white;
   display: flex;
-=======
->>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
 }
 
 footer {
@@ -881,12 +818,12 @@ footer .copyright {
   }
 
   header .headerNav a {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
   .headerNav {
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -1032,7 +969,7 @@ footer .copyright {
   }
 
   header .headerNav a {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .headerNav {
     margin-top: 2%;
