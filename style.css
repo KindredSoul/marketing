@@ -86,16 +86,17 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+<<<<<<< HEAD
+  border: 1px solid grey;
+=======
+  border: 0 /** 1px solid grey; **/
+>>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers **/
 
-* {
-  border: 1px solid grey;
-}
+/* HTML5 display-role reset for older browsers **/
 
 article,
 aside,
@@ -139,10 +140,9 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-size: 2rem;
   font-family: "Heebo", sans-serif;
-  color: #4f4f4f;
   text-decoration: none;
+  color: rgba(48, 64, 77, 0.8);
 }
 
 i {
@@ -163,45 +163,45 @@ header .logoName {
   display: flex;
   justify-content: center;
   /* border: 1px solid black; */
-  width: 20%;
+  width: 15%;
 }
 
 header .logoName img {
-  width: 70%;
+  width: 50%;
 }
 
-header .headerNav{
-    /* border: 1px solid black; */
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2%;
+header .headerNav {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
 }
-header .headerNav span{
-    border-right: thin solid gray;
-    width: 0;
-    height: 20px;
+header .headerNav span {
+  border-right: thin solid gray;
+  width: 0;
+  height: 20px;
 }
-header .headerNav a{
-    font-size: 1.8rem;
-    text-align: center;
-    text-decoration: none;
-    margin: 0 2%;
-    color: rgb(255, 94, 0);
+header .headerNav a {
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 2%;
+  color: rgb(255, 94, 0);
 }
-header .headerNav .btn{
-    /* border: 1px solid black; */
-    padding: 1% 2.5%;
-    border-radius: 50px;
-    color: white;
-    background-color: rgb(255, 94, 0);
-    /* transition: 1s; */
+header .headerNav .btn {
+  /* border: 1px solid black; */
+  padding: 1% 2.5%;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(255, 94, 0);
+  /* transition: 1s; */
 }
-header .headerNav .btn:hover{
-    transition: 1s;
-    background-color: white;
-    color: rgb(255, 94, 0);
+header .headerNav .btn:hover {
+  transition: 1s;
+  background-color: white;
+  color: rgb(255, 94, 0);
 }
 header .headerNav .btn:hover {
   transition: 1s;
@@ -216,54 +216,185 @@ header .headerNav .btn:hover {
   background-image: url("/Images/donation.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-.contentColumn {
-    margin-left: 2%;
-    align-items: center;
-    justify-content: center;
-  font-size: 2rem;
-  line-height: 1.5;
-  color: rgba(48, 64, 77, 0.8);
-}
-
-.heroContainer {
-  margin-left: 2%;
+<<<<<<< HEAD
+.topImage2 {
+  height: 45vh;
+  background-image: url("/Images/donation5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1.5;
-  text-decoration: none;
 }
 
-.heroContainer h2 a {
-    color: coral;
-    text-decoration: none;
-    font-size: 2.1rem;
+.replateTitle {
+  display: flex;
+  background: #f0c692;
+=======
+.contentColumn {
+  padding: 4%;
+  align-items: center;
+  justify-content: center;
+>>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
+  font-size: 2rem;
+  width: 100%;
+}
+
+<<<<<<< HEAD
+.replateTitle h2 {
+  margin: 4% 4% 4% 4%;
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
 }
 
 .howReplateWorks {
-    background: #f0c692;
+  display: flex;
+  background: #f0c692;
+  font-size: 2rem;
+  width: 100%;
 }
 
-.replateContent {
-  font-size: 1.5rem;
-  padding: 4%;
-}
-
-.howReplateWorks h1 {
-  padding: 4%;
+.howReplateWorks h2 {
+  padding: 2%;
   font-size: 4.7rem;
   text-align: center;
 }
 
+.howReplateWorks h3 {
+  font-size: 3rem;
+}
+
+.replateContent {
+  font-size: 2.5rem;
+  width: 48%;
+}
+
+.replateContent p {
+  font-size: 2.5rem;
+}
+
+.step1,
+.step2,
+.step3 {
+  padding: 1%;
+  margin-left: 2%;
+  width: 60%;
+}
+
+.step1 p {
+  font-size: 5rem;
+}
+
+.donateContent a {
+  text-decoration: none;
+=======
+.heroContainer {
+  padding: 4%;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-decoration: none;
+  color: rgba(48, 64, 77, 0.8);
+}
+
+.contentColumn h1 {
+  padding: 0%;
+  text-decoration: none;
+  font-size: 3.1rem;
+}
+
+.heroContainer h2 a {
+  color: coral;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
+.howReplateWorks {
+  background: #f0c692;
+  font-size: 2rem;
+}
+
+.replateContent {
+  font-size: 2rem;
+}
+
+.replateContent h3 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.howReplateWorks h2 {
+  padding: 4%;
+  font-size: 4.7rem;
+  text-align: center;
+>>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
+}
+
+.howReplateWorks h3 {
+  font-size: 3rem;
+}
+
+.step1,
+.step2,
+.step3 {
+  padding: 2%;
+  margin-left: 2%;
+}
+
 .banner {
   background-color: #ddd4a0;
+  font-size: 2rem;
+}
+
+.bannerContent1 h2 {
+<<<<<<< HEAD
+  margin-left: 2%;
+  margin-bottom: 2%;
+  font-size: 4.7rem;
+=======
+  padding: 2%;
+  font-size: 4.7rem;
+  
+>>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
+}
+
+.banner p {
+  font-size: 2rem;
+  margin-left: 2%;
+}
+
+.bannerContent1 {
+  padding: 2%;
+}
+
+.bannerContent2 {
+  display: flex;
   padding: 4%;
+  text-decoration: none;
+}
+
+.bannerContent2 a {
+  margin-left: 1%;
+  text-decoration: none;
+  color: #d35400;
+<<<<<<< HEAD
+}
+
+.horzline {
+  margin-top: 2%;
+  border-top: 1px dashed white;
+  display: flex;
+=======
+>>>>>>> 6de27f875600449a0bc23937a91c780ba8c40e28
 }
 
 footer {
@@ -292,7 +423,6 @@ footer div {
   width: 100%;
 }
 
-
 .footerNav {
   display: flex;
   flex-direction: column;
@@ -301,8 +431,8 @@ footer div {
   padding: 2%;
 }
 
-.footerNav a{
-    margin: 1% 0;
+.footerNav a {
+  margin: 1% 0;
 }
 
 .social {
@@ -317,15 +447,14 @@ nav.social a {
   margin: 2%, 2%;
 }
 
-
-footer .copyright{
-    text-align: center;
-    width: 100%;
+footer .copyright {
+  text-align: center;
+  width: 100%;
 }
 
 /* =================== About Us Page Styles============= */
-.mainContent{
-    padding: 2%;
+.mainContent {
+  padding: 2%;
 }
 
 .aboutProduct {
@@ -370,140 +499,686 @@ footer .copyright{
   box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #a8a6a68c;
   overflow: hidden;
 }
-.cardContainer .card1{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/brian_hague.png);
+.cardContainer .card1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(Images/brian_hague.png);
 }
-.cardContainer .card2{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/ashton_turner.jpg);
+.cardContainer .card2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(Images/ashton_turner.jpg);
 }
-.cardContainer .card3{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/emilio_ramirez.jpg);
-    height: 250px;
+.cardContainer .card3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(Images/emilio_ramirez.jpg);
+  height: 250px;
 }
-.cardContainer .card4{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/rohith_sachdeva.jpg);
+.cardContainer .card4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(Images/rohith_sachdeva.jpg);
 }
-.cardContainer .card5{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/rod_hentringer.jpg);
+.cardContainer .card5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(Images/rod_hentringer.jpg);
 }
-.cardContainer .card6{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(Images/jabril_github.jpg);
+.cardContainer .card6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(Images/jabril_github.jpg);
 }
-.cardContainer .card7{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url();
+.cardContainer .card7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url();
 }
-.cardContainer .card8{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url();
+.cardContainer .card8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url();
 }
 
-
-.card .cardText{
-    margin: 4% 5%;
-    display: flex;
-    flex-direction: column;
+.card .cardText {
+  margin: 4% 5%;
+  display: flex;
+  flex-direction: column;
 }
-.devName, .devRole, .card p{
-    margin: 1% 0;
+.devName,
+.devRole,
+.card p {
+  margin: 1% 0;
 }
-.card .devName{
-    font-size: 2.5rem;
+.card .devName {
+  font-size: 2.5rem;
 }
-.card .devRole{
-    font-size: 2rem;
+.card .devRole {
+  font-size: 2rem;
 }
 .card .devPhoto {
-    display: none;
+  display: none;
 }
 
 /* ====================== Media Styles ================= */
-@media(min-width: 500px){
-    header .headerNav a{
-        font-size: 2.5rem;
-    }
-    .aboutProduct h2,
-    .aboutDevs h2 {
-        font-size: 4rem;
-    }
+
+/* ===== 300px ===== */
+
+@media (min-width: 300px) {
+  i {
+    font-size: 2rem;
+  }
+
+  header .logoName {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 35%;
+  }
+
+  .logoName {
+    max-height: 150px;
+    width: auto;
+  }
+
+  header .headerNav a {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+  }
+
+  .contentColumn {
+    padding: 4%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: rgba(48, 64, 77, 0.8);
+  }
+
+  .contentColumn h1 {
+    margin-top: 2%;
+    font-size: 2.5rem;
+  }
+
+  .heroContainer h2 {
+    font-size: 2.5rem;
+  }
+
+  .heroContainer p {
+    font-size: 1.8rem;
+  }
+
+  .howReplateWorks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .replateContent {
+    width: 90%;
+  }
+
+  .replateContent h2 {
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .replateContent p {
+    font-size: 1.8rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .replateContent h3 {
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .step1,
+  .step2,
+  .step3 {
+    padding: 2%;
+    margin-left: 2%;
+    width: 90%;
+  }
+
+  .donateContent {
+    text-decoration: none;
+    align-items: baseline;
+    text-align: center;
+    width: 90%;
+    font-size: 1.8rem;
+  }
+
+  .donateContent i {
+    margin-bottom: 2%;
+    font-size: 4rem;
+  }
+
+  .donateContent a {
+    text-decoration: none;
+  }
+
+  .bannerContent1 h2 {
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 6%;
+  }
+
+  .bannerContent1 p {
+    font-size: 1.8rem;
+  }
+  .bannerContent2 a {
+    font-size: 1.8rem;
+  }
+
+  .aboutProduct h2,
+  .aboutDevs h2 {
+    font-size: 4rem;
+  }
   .aboutProduct p,
   .aboutDevs p {
     font-size: 2rem;
   }
-  .card .devName{
-      font-size: 3rem;
+  .card .devName {
+    font-size: 3rem;
   }
-  .card .devRole{
-      font-size: 2.4rem;
-  }
-  
-  
-footer {
+  .card .devRole {
     font-size: 2.4rem;
-}
-  
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+
+  .footerNav {
+    margin-bottom: 5%;
+  }
+
   .social {
     width: 48%;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  
+
   nav.social a {
     display: flex;
     margin: 2%, 2%;
   }
-  
-  footer .copyright{
-      text-align: center;
-      width: 100%;
-      margin: 1% 0;
+
+  footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin: 1% 0;
   }
-  
 }
 
-@media(min-width: 800px){
-    header {
-        flex-direction: row;
-        align-items: center;
-      }
-      header .headerNav{
-          /* border: 1px solid black; */
-          width: 80%;
-      }
-      header .headerNav span{
-          height: 60px;
-      }
-      header .headerNav a{
-          font-size: 3.5rem;
-      }
-    
-    .aboutProduct h2,
-    .aboutDevs h2 {
-      font-size: 4rem;
-      font-weight: bold;
-    }
-    .aboutProduct p,
-    .aboutDevs p {
-      font-size: 2.5rem;
-    }
-    .cardContainer .card {
-      color: black;
-      background-image: none;
-    }
+/* ===== 500px ===== */
 
-    .cardContainer .card3{
-        height: auto;
-    }
-    .card .devName{
-        font-size: 4.6rem
-    }
-    .card .devRole{
-        font-size: 3.5rem;
-    }
-    .card .devPhoto {
-        display: block;
-      width: 100%;
-      border-radius: 0 20px 0 20px;
-      margin: -50px 0 0 0;
-    }
-    
+@media (min-width: 500px) {
+  i {
+    font-size: 2rem;
+  }
+
+  .logoName {
+    max-height: 150px;
+    width: auto;
+  }
+
+  header .headerNav a {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+  }
+
+  .mContent {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .contentColumn {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: rgba(48, 64, 77, 0.8);
+    width: 100%;
+  }
+
+  .contentImage img {
+    display: none;
+  }
+
+  .contentColumn h1 {
+    margin-top: 1%;
+    font-size: 3rem;
+  }
+
+  .heroContainer h2 {
+    font-size: 1.8rem;
+  }
+
+  .heroContainer p {
+    font-size: 2rem;
+  }
+
+  .howReplateWorks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .replateContent {
+    width: 50%;
+  }
+
+  .replateContent h2 {
+    font-size: 4rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .replateContent h3 {
+    font-size: 3rem;
+    margin-top: 1%;
+  }
+
+  .replateContent p {
+    font-size: 1.8rem;
+  }
+
+  .donateContent {
+    text-decoration: none;
+    width: 45%;
+  }
+
+  .donateContent i {
+    margin-bottom: 2%;
+    font-size: 4rem;
+  }
+
+  .donateContent a {
+    text-decoration: none;
+  }
+
+  .step1,
+  .step2,
+  .step3 {
+    padding: 2%;
+    margin-left: 2%;
+    width: 80%;
+  }
+
+  .bannerContent1 h2 {
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 6%;
+  }
+
+  .bannerContent1 p {
+    font-size: 1.5rem;
+  }
+  .bannerContent2 a {
+    font-size: 1.8rem;
+  }
+
+  .aboutProduct h2,
+  .aboutDevs h2 {
+    font-size: 4rem;
+  }
+  .aboutProduct p,
+  .aboutDevs p {
+    font-size: 2rem;
+  }
+  .card .devName {
+    font-size: 3rem;
+  }
+  .card .devRole {
+    font-size: 2.4rem;
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+
+  .social {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav.social a {
+    display: flex;
+    margin: 2%, 2%;
+  }
+
+  footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin: 1% 0;
+  }
+}
+
+.contentImage img {
+  display: none;
+}
+
+/* ===== 800px ===== */
+
+@media (min-width: 800px) {
+  header .logoName {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 25%;
+  }
+
+  .logoName {
+    width: 100%;
+  }
+
+  i {
+    font-size: 2rem;
+  }
+
+  header .headerNav a {
+    font-size: 1.8rem;
+  }
+  .headerNav {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .mContent {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .contentColumn {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: rgba(48, 64, 77, 0.8);
+    width: 100%;
+  }
+
+  .contentImage img {
+    display: none;
+  }
+
+  .contentColumn h1 {
+    margin-top: 1%;
+    font-size: 3rem;
+  }
+
+  .heroContainer h2 {
+    font-size: 1.8rem;
+  }
+
+  .heroContainer p {
+    font-size: 2rem;
+  }
+
+  .howReplateWorks {
+    width: 100%;
+  }
+
+  .replateContent {
+    align-items: baseline;
+    width: 50%;
+  }
+
+  .replateContent h2 {
+    font-size: 4rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .replateContent h3 {
+    font-size: 3rem;
+    margin-top: 1%;
+  }
+
+  .replateContent p {
+    font-size: 1.8rem;
+  }
+
+  .step1,
+  .step2,
+  .step3 {
+    margin-left: 2%;
+    width: 80%;
+  }
+
+  .donateContent {
+    text-decoration: none;
+    align-items: baseline;
+    text-align: center;
+    width: 45%;
+  }
+
+  .donateContent a {
+    text-decoration: none;
+  }
+
+  .donateContent i {
+    margin-bottom: 2%;
+    font-size: 4rem;
+  }
+
+  .bannerContent1 h2 {
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .bannerContent1 p {
+    font-size: 1.8rem;
+  }
+  .bannerContent2 a {
+    font-size: 1.8rem;
+  }
+
+  .aboutProduct h2,
+  .aboutDevs h2 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .aboutProduct p,
+  .aboutDevs p {
+    font-size: 2.5rem;
+  }
+  .cardContainer .card {
+    color: black;
+    background-image: none;
+  }
+
+  .cardContainer .card3 {
+    height: auto;
+  }
+  .card .devName {
+    font-size: 4.6rem;
+  }
+  .card .devRole {
+    font-size: 3.5rem;
+  }
+  .card .devPhoto {
+    display: block;
+    width: 100%;
+    border-radius: 0 20px 0 20px;
+    margin: -50px 0 0 0;
+  }
+}
+
+/* ===== 1024px ===== */
+
+@media (min-width: 1024px) {
+  header .logoName {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 15%;
+  }
+
+  .logoName {
+    width: 100%;
+  }
+
+  i {
+    font-size: 2rem;
+  }
+
+  header .headerNav a {
+    font-size: 1.8rem;
+  }
+  .headerNav {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .mContent {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .contentColumn {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: rgba(48, 64, 77, 0.8);
+    width: 48%;
+  }
+
+  .contentImage {
+    display: flex;
+    padding: 5% 0;
+  }
+
+  .contentImage img {
+    display: block;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 0.2rem grey);
+  }
+
+  .contentColumn h1 {
+    margin-top: 1%;
+    font-size: 3rem;
+  }
+
+  .heroContainer h2 {
+    font-size: 1.8rem;
+  }
+
+  .heroContainer p {
+    font-size: 2rem;
+  }
+
+  .howReplateWorks {
+    width: 100%;
+  }
+
+  .replateContent {
+    align-items: baseline;
+  }
+
+  .replateContent h2 {
+    font-size: 4rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .replateContent h3 {
+    font-size: 3rem;
+    margin-top: 1%;
+  }
+
+  .replateContent p {
+    font-size: 1.8rem;
+  }
+
+  .step1,
+  .step2,
+  .step3 {
+    margin-left: 2%;
+    width: 80%;
+  }
+
+  .donateContent {
+    text-decoration: none;
+    align-items: baseline;
+    text-align: center;
+    width: 50%;
+  }
+
+  .donateContent a {
+    text-decoration: none;
+  }
+
+  .donateContent i {
+    margin-bottom: 2%;
+    font-size: 4rem;
+  }
+
+  .bannerContent1 h2 {
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .bannerContent1 p {
+    font-size: 1.8rem;
+  }
+  .bannerContent2 a {
+    font-size: 1.8rem;
+  }
+
+  .aboutProduct h2,
+  .aboutDevs h2 {
+    font-size: 4rem;
+  }
+  .aboutProduct p,
+  .aboutDevs p {
+    font-size: 2rem;
+  }
+  .card .devName {
+    font-size: 3rem;
+  }
+  .card .devRole {
+    font-size: 2.4rem;
+  }
+
+  footer {
+    font-size: 1.8rem;
+  }
+
+  .footerNav {
+    margin-bottom: 5%;
+  }
+
+  .social {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav.social a {
+    display: flex;
+    margin: 2%, 2%;
+  }
+
+  footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin: 1% 0;
+  }
 }
