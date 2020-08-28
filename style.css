@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers **/
@@ -105,418 +105,418 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol,
 ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote,
 q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+	content: "";
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 /* =============End of Reset============== */
 /* =====================Start of Team Styles==================== */
 html {
-  font-size: 62.5%;
-  box-sizing: border-box;
+	font-size: 62.5%;
+	box-sizing: border-box;
 }
 body {
-  font-size: 2rem;
-  font-family: "Heebo", sans-serif;
-  color: #4f4f4f;
-  text-decoration: none;
+	font-size: 2rem;
+	font-family: "Heebo", sans-serif;
+	color: #4f4f4f;
+	text-decoration: none;
 }
 
 i {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 /* ============================ Header ================ */
 header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1% 0;
-  border-bottom: 1px solid black;
-  /* Header was causing a horizontal scrollbar to appear  */
-  overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1% 0;
+	border-bottom: 1px solid black;
+	/* Header was causing a horizontal scrollbar to appear  */
+	overflow: hidden;
 }
 header .logoName {
-  display: flex;
-  justify-content: center;
-  /* border: 1px solid black; */
-  width: 25%;
+	display: flex;
+	justify-content: center;
+	/* border: 1px solid black; */
+	width: 25%;
 }
 
 header .logoName img {
-  width: 59%;
+	width: 59%;
 }
 
 header .headerNav {
-  /* border: 1px solid black; */
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 2%;
+	/* border: 1px solid black; */
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2%;
 }
 header .headerNav span {
-  border-right: thin solid gray;
-  width: 0;
-  height: 20px;
+	border-right: thin solid gray;
+	width: 0;
+	height: 20px;
 }
 header .headerNav a {
-  font-size: 1.8rem;
-  text-align: center;
-  text-decoration: none;
-  margin: 0 2%;
-  color: rgb(255, 94, 0);
+	font-size: 1.8rem;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 2%;
+	color: rgb(255, 94, 0);
 }
 header .headerNav .btn {
-  /* border: 1px solid black; */
-  padding: 1% 2.5%;
-  border-radius: 50px;
-  color: white;
-  background-color: rgb(255, 94, 0);
-  /* transition: 1s; */
+	/* border: 1px solid black; */
+	padding: 1% 2.5%;
+	border-radius: 50px;
+	color: white;
+	background-color: rgb(255, 94, 0);
+	/* transition: 1s; */
 }
 header .headerNav .btn:hover {
-  transition: 1s;
-  background-color: white;
-  color: rgb(255, 94, 0);
+	transition: 1s;
+	background-color: white;
+	color: rgb(255, 94, 0);
 }
 header .headerNav .btn:hover {
-  transition: 1s;
-  background-color: white;
-  color: rgb(255, 94, 0);
+	transition: 1s;
+	background-color: white;
+	color: rgb(255, 94, 0);
 }
 
 /* ====================== Main Content ====================== */
 
 .topImage {
-  height: 45vh;
-  background-image: url("/Images/donation.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	height: 45vh;
+	background-image: url("/Images/donation.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .topImage2 {
-  height: 45vh;
-  background-image: url("/Images/donation5.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	height: 45vh;
+	background-image: url("/Images/donation5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .replateTitle {
-  display: flex;
-  background: #f0c692;
-  font-size: 2rem;
-  width: 100%;
+	display: flex;
+	background: #f0c692;
+	font-size: 2rem;
+	width: 100%;
 }
 
 .contentImage img {
-  display: none;
+	display: none;
 }
 
 .replateTitle h2 {
-  margin: 4% 4% 4% 4%;
-  font-size: 4rem;
-  width: 100%;
-  text-align: center;
+	margin: 4% 4% 4% 4%;
+	font-size: 4rem;
+	width: 100%;
+	text-align: center;
 }
 
 .heroContainer {
-  margin-top: 13%;
+	margin-top: 13%;
 }
 .heroContainer h2 a {
-  margin-top: 5%;
-  color: coral;
-  text-decoration: none;
-  font-size: 2.5rem;
+	margin-top: 5%;
+	color: coral;
+	text-decoration: none;
+	font-size: 2.5rem;
 }
 
 .howReplateWorks {
-  display: flex;
-  background: #f0c692;
-  font-size: 2rem;
-  width: 100%;
+	display: flex;
+	background: #f0c692;
+	font-size: 2rem;
+	width: 100%;
 }
 
 .howReplateWorks h2 {
-  padding: 2%;
-  font-size: 4.7rem;
-  text-align: center;
+	padding: 2%;
+	font-size: 4.7rem;
+	text-align: center;
 }
 
 .howReplateWorks h3 {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 
 .replateContent {
-  font-size: 2.5rem;
-  width: 48%;
+	font-size: 2.5rem;
+	width: 48%;
 }
 
 .replateContent p {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .step1,
 .step2,
 .step3 {
-  padding: 1%;
-  margin-left: 2%;
-  width: 60%;
+	padding: 1%;
+	margin-left: 2%;
+	width: 60%;
 }
 
 .step1 p {
-  font-size: 5rem;
+	font-size: 5rem;
 }
 
 .donateContent {
-  width: 45%;
+	width: 45%;
 }
 .donateContent a h3 {
-  text-decoration: none;
-  color: rgba(48, 64, 77, 0.8);
+	text-decoration: none;
+	color: rgba(48, 64, 77, 0.8);
 }
 
 .howReplateWorks h3 {
-  font-size: 3rem;
-  margin-bottom: 2%;
+	font-size: 3rem;
+	margin-bottom: 2%;
 }
 
 .step1,
 .step2,
 .step3 {
-  padding: 2%;
-  margin-left: 2%;
+	padding: 2%;
+	margin-left: 2%;
 }
 
 .banner {
-  background-color: #ddd4a0;
-  font-size: 2rem;
+	background-color: #ddd4a0;
+	font-size: 2rem;
 }
 
 .bannerContent1 h2 {
-  margin-left: 2%;
-  margin-bottom: 2%;
-  font-size: 4.7rem;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	font-size: 4.7rem;
 }
 
 .banner p {
-  font-size: 2rem;
-  margin-left: 2%;
+	font-size: 2rem;
+	margin-left: 2%;
 }
 
 .bannerContent1 {
-  padding: 2%;
+	padding: 2%;
 }
 
 .bannerContent2 {
-  display: flex;
-  padding: 4%;
-  text-decoration: none;
+	display: flex;
+	padding: 4%;
+	text-decoration: none;
 }
 
 .bannerContent2 a {
-  margin-left: 1%;
-  text-decoration: none;
-  color: #d35400;
+	margin-left: 1%;
+	text-decoration: none;
+	color: #d35400;
 }
 
 footer {
-  font-size: 1.2rem;
-  text-decoration: none;
-  background-color: #ffbb3c;
-  color: #fff;
-  /* padding: 2%; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	font-size: 1.2rem;
+	text-decoration: none;
+	background-color: #ffbb3c;
+	color: #fff;
+	/* padding: 2%; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 footer a {
-  font-size: 1.8rem;
-  color: #fff;
-  text-decoration: none;
+	font-size: 1.8rem;
+	color: #fff;
+	text-decoration: none;
 }
 footer a:hover {
-  color: #4f4f4f;
+	color: #4f4f4f;
 }
 footer div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 
 .footerNav {
-  margin-top: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 48%;
-  /* border: 1px solid black; */
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 48%;
+	/* border: 1px solid black; */
 }
 
 .footerNav a {
-  margin: 1% 0;
+	margin: 1% 0;
 }
 
 .social {
-  width: 48%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 1% 0;
-  /* border: 1px solid black; */
+	width: 48%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1% 0;
+	/* border: 1px solid black; */
 }
 
 nav.social a {
-  display: flex;
+	display: flex;
 }
 
 /* =================== About Us Page Styles============= */
 .mainContent {
-  padding: 2%;
+	padding: 2%;
 }
 
 .topImage3 {
-  background-image: url("/Images/donation6.jpg");
+	background-image: url("/Images/donation6.jpg");
 }
 
 .aboutProduct {
-  /* border: 1px solid black; */
-  margin-bottom: 10%;
-  padding: 2%;
-  text-align: center;
-  border-radius: 0 20px 0 20px;
-  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
+	/* border: 1px solid black; */
+	margin-bottom: 10%;
+	padding: 2%;
+	text-align: center;
+	border-radius: 0 20px 0 20px;
+	box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
 }
 
 .aboutProduct h2,
 .aboutDevs h2 {
-  font-size: 3rem;
-  margin-bottom: 1%;
-  color: #ff5e00;
+	font-size: 3rem;
+	margin-bottom: 1%;
+	color: #ff5e00;
 }
 .aboutProduct p,
 .aboutDevs p {
-  font-size: 1.75rem;
+	font-size: 1.75rem;
 }
 
 .aboutDevs {
-  /* border: 1px solid black; */
-  text-align: center;
-  padding: 2% 3;
-  border-radius: 0 20px 0 20px;
+	/* border: 1px solid black; */
+	text-align: center;
+	padding: 2% 3;
+	border-radius: 0 20px 0 20px;
 }
 .aboutDevs .cardContainer {
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .cardContainer .card {
-  /* border: 1px solid black; */
-  width: 100%;
-  height: 310px;
-  margin: 3% 0;
-  color: white;
-  text-align: left;
-  border-radius: 0 20px 0 20px;
-  box-shadow: 0 0 30px #eceaea70, 0 0 30px #eceaea69;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  display: flex;
+	/* border: 1px solid black; */
+	width: 100%;
+	height: 310px;
+	margin: 3% 0;
+	color: white;
+	text-align: left;
+	border-radius: 0 20px 0 20px;
+	box-shadow: 0 0 30px #eceaea70, 0 0 30px #eceaea69;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	display: flex;
 }
 
 .cardContainer .card1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(Images/brian_hague.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/brian_hague.png);
 }
 .cardContainer .card2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(Images/ashton_turner.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/ashton_turner.jpg);
 }
 .cardContainer .card3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(Images/emilio_ramirez.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/emilio_ramirez.jpg);
 }
 .cardContainer .card4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(Images/rohith_sachdeva.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/rohith_sachdeva.jpg);
 }
 .cardContainer .card5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(Images/rod_hentringer.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/rod_hentringer.jpg);
 }
 .cardContainer .card6 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(Images/jabril_github.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/jabril_github.jpg);
 }
 .cardContainer .card7 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-    url(Images/tim_mcdonald.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+		url(Images/tim_mcdonald.jpg);
 }
 .cardContainer .card8 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(Images/michael_hernandez.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/michael_hernandez.png);
 }
 
 .card .cardText {
-  /* border: 1px solid black; */
-  border-radius: 0 20px 0 0;
-  padding: 0 1%;
-  line-height: 25px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  overflow: scroll;
+	/* border: 1px solid black; */
+	border-radius: 0 20px 0 0;
+	padding: 0 1%;
+	line-height: 25px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
 }
 .card .cardText::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 .card .devName {
-  font-size: 2rem;
-  margin: 2% 0;
+	font-size: 2rem;
+	margin: 2% 0;
 }
 .card .devRole {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 .card p {
-  font-size: 1.6rem;
+	font-size: 1.6rem;
 }
 .card .devPhoto {
-  display: none;
-  /* border: 1px solid black;
+	display: none;
+	/* border: 1px solid black;
 	width: 30%;
 	height: 100%;
 	border-radius: 0 20px 0 20px; */
@@ -524,662 +524,662 @@ nav.social a {
 .devName,
 .devRole,
 .card p {
-  margin: 1% 0;
+	margin: 1% 0;
 }
 
 /* =================================== Media Styles ================= */
 @media (min-width: 300px) {
-  i {
-    font-size: 2rem;
-  }
+	i {
+		font-size: 2rem;
+	}
 
-  header .logoName {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 25%;
-  }
+	header .logoName {
+		display: flex;
+		justify-content: center;
+		/* border: 1px solid black; */
+		width: 25%;
+	}
 
-  .logoName {
-    max-height: 150px;
-    width: auto;
-  }
+	.logoName {
+		max-height: 150px;
+		width: auto;
+	}
 
-  header .headerNav a {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 1.2rem;
-  }
+	header .headerNav a {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-size: 1.2rem;
+	}
 
-  .contentColumn {
-    padding: 4%;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8rem;
-    line-height: 1.5;
-    color: rgba(48, 64, 77, 0.8);
-  }
+	.contentColumn {
+		padding: 4%;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.8rem;
+		line-height: 1.5;
+		color: rgba(48, 64, 77, 0.8);
+	}
 
-  /* .contentImage img {
+	/* .contentImage img {
 		display: none;
 	} */
 
-  .contentColumn h1 {
-    margin-top: 2%;
-    font-size: 2.5rem;
-  }
+	.contentColumn h1 {
+		margin-top: 2%;
+		font-size: 2.5rem;
+	}
 
-  .heroContainer h2 {
-    font-size: 2.5rem;
-  }
+	.heroContainer h2 {
+		font-size: 2.5rem;
+	}
 
-  .heroContainer p {
-    font-size: 1.8rem;
-  }
+	.heroContainer p {
+		font-size: 1.8rem;
+	}
 
-  .howReplateWorks {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-  }
+	.howReplateWorks {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+	}
 
-  .replateContent {
-    width: 90%;
-  }
+	.replateContent {
+		width: 90%;
+	}
 
-  .replateContent h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+	.replateContent h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .replateContent p {
-    font-size: 1.8rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+	.replateContent p {
+		font-size: 1.8rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .replateContent h3 {
-    font-size: 2rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+	.replateContent h3 {
+		font-size: 2rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .step1,
-  .step2,
-  .step3 {
-    padding: 2%;
-    margin-left: 2%;
-    width: 90%;
-  }
+	.step1,
+	.step2,
+	.step3 {
+		padding: 2%;
+		margin-left: 2%;
+		width: 90%;
+	}
 
-  .donateContent {
-    text-decoration: none;
-    align-items: baseline;
-    text-align: center;
-    width: 90%;
-    font-size: 1.8rem;
-  }
+	.donateContent {
+		text-decoration: none;
+		align-items: baseline;
+		text-align: center;
+		width: 90%;
+		font-size: 1.8rem;
+	}
 
-  .donateContent i {
-    margin-bottom: 2%;
-    font-size: 4rem;
-  }
+	.donateContent i {
+		margin-bottom: 2%;
+		font-size: 4rem;
+	}
 
-  .donateContent a {
-    margin-bottom: 2%;
-    text-decoration: none;
-  }
+	.donateContent a {
+		margin-bottom: 2%;
+		text-decoration: none;
+	}
 
-  .donateContent p {
-    margin-bottom: 4%;
-  }
-  .bannerContent1 h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 6%;
-  }
+	.donateContent p {
+		margin-bottom: 4%;
+	}
+	.bannerContent1 h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 6%;
+	}
 
-  .bannerContent1 p {
-    font-size: 1.8rem;
-  }
-  .bannerContent2 a {
-    font-size: 1.8rem;
-  }
+	.bannerContent1 p {
+		font-size: 1.8rem;
+	}
+	.bannerContent2 a {
+		font-size: 1.8rem;
+	}
 
-  footer {
-    font-size: 1.5rem;
-  }
+	footer {
+		font-size: 1.5rem;
+	}
 
-  .footerNav {
-    margin-bottom: 5%;
-  }
+	.footerNav {
+		margin-bottom: 5%;
+	}
 
-  .footerNav a {
-    font-size: 1.5rem;
-  }
+	.footerNav a {
+		font-size: 1.5rem;
+	}
 
-  .social {
-    width: 48%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
+	.social {
+		width: 48%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
 
-  nav.social a {
-    display: flex;
-    margin: 2%, 2%;
-  }
+	nav.social a {
+		display: flex;
+		margin: 2%, 2%;
+	}
 }
 
 /* ================================================================= */
 @media (min-width: 500px) {
-  i {
-    font-size: 2rem;
-  }
+	i {
+		font-size: 2rem;
+	}
 
-  .mContent {
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
+	.mContent {
+		margin-top: 6%;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
 
-  .contentColumn {
-    font-size: 2rem;
-    line-height: 1.5;
-    color: rgba(48, 64, 77, 0.8);
-    width: 100%;
-  }
+	.contentColumn {
+		font-size: 2rem;
+		line-height: 1.5;
+		color: rgba(48, 64, 77, 0.8);
+		width: 100%;
+	}
 
-  /* .contentImage img {
+	/* .contentImage img {
 		display: none;
 	} */
 
-  .contentColumn h1 {
-    margin-top: 1%;
-    font-size: 3rem;
-  }
+	.contentColumn h1 {
+		margin-top: 1%;
+		font-size: 3rem;
+	}
 
-  .heroContainer h2 {
-    font-size: 1.8rem;
-  }
+	.heroContainer h2 {
+		font-size: 1.8rem;
+	}
 
-  .heroContainer p {
-    font-size: 2rem;
-  }
+	.heroContainer p {
+		font-size: 2rem;
+	}
 
-  .howReplateWorks {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
+	.howReplateWorks {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
 
-  .replateContent {
-    width: 50%;
-  }
+	.replateContent {
+		width: 50%;
+	}
 
-  .replateContent h2 {
-    font-size: 4rem;
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
+	.replateContent h2 {
+		font-size: 4rem;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
 
-  .replateContent h3 {
-    font-size: 3rem;
-    margin-top: 1%;
-  }
+	.replateContent h3 {
+		font-size: 3rem;
+		margin-top: 1%;
+	}
 
-  .replateContent p {
-    font-size: 1.8rem;
-  }
+	.replateContent p {
+		font-size: 1.8rem;
+	}
 
-  .donateContent {
-    text-decoration: none;
-    width: 45%;
-  }
+	.donateContent {
+		text-decoration: none;
+		width: 45%;
+	}
 
-  .donateContent i {
-    margin-bottom: 2%;
-    font-size: 4rem;
-  }
+	.donateContent i {
+		margin-bottom: 2%;
+		font-size: 4rem;
+	}
 
-  .donateContent a {
-    text-decoration: none;
-  }
+	.donateContent a {
+		text-decoration: none;
+	}
 
-  .step1,
-  .step2,
-  .step3 {
-    padding: 2%;
-    margin-left: 2%;
-    width: 80%;
-  }
+	.step1,
+	.step2,
+	.step3 {
+		padding: 2%;
+		margin-left: 2%;
+		width: 80%;
+	}
 
-  .bannerContent1 h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 6%;
-  }
+	.bannerContent1 h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 6%;
+	}
 
-  .bannerContent1 p {
-    font-size: 1.5rem;
-  }
-  .bannerContent2 a {
-    font-size: 1.8rem;
-  }
+	.bannerContent1 p {
+		font-size: 1.5rem;
+	}
+	.bannerContent2 a {
+		font-size: 1.8rem;
+	}
 
-  header .headerNav a {
-    font-size: 1.8rem;
-  }
-  .aboutProduct h2,
-  .aboutDevs h2 {
-    font-size: 4rem;
-  }
-  .aboutProduct p,
-  .aboutDevs p {
-    font-size: 2rem;
-  }
-  .aboutProduct .gallery {
-    justify-content: space-around;
-  }
-  .aboutProduct .gallery .galleryImg {
-    width: 48%;
-  }
-  .aboutProduct .gallery .galleryImg:nth-child(2) {
-    display: block;
-  }
-  .card .devName {
-    font-size: 3rem;
-  }
-  .card .devRole {
-    font-size: 2.4rem;
-  }
+	header .headerNav a {
+		font-size: 1.8rem;
+	}
+	.aboutProduct h2,
+	.aboutDevs h2 {
+		font-size: 4rem;
+	}
+	.aboutProduct p,
+	.aboutDevs p {
+		font-size: 2rem;
+	}
+	.aboutProduct .gallery {
+		justify-content: space-around;
+	}
+	.aboutProduct .gallery .galleryImg {
+		width: 48%;
+	}
+	.aboutProduct .gallery .galleryImg:nth-child(2) {
+		display: block;
+	}
+	.card .devName {
+		font-size: 3rem;
+	}
+	.card .devRole {
+		font-size: 2.4rem;
+	}
 }
 
 /* ======================================================================== */
 @media (min-width: 768px) {
-  header {
-    flex-direction: row;
-    align-items: center;
-  }
-  header .logoName {
-    width: 25%;
-  }
-  header .headerNav {
-    /* border: 1px solid black; */
-    width: 80%;
-  }
-  header .headerNav span {
-    height: 40px;
-  }
-  header .headerNav a {
-    font-size: 2rem;
-  }
+	header {
+		flex-direction: row;
+		align-items: center;
+	}
+	header .logoName {
+		width: 25%;
+	}
+	header .headerNav {
+		/* border: 1px solid black; */
+		width: 80%;
+	}
+	header .headerNav span {
+		height: 40px;
+	}
+	header .headerNav a {
+		font-size: 2rem;
+	}
 
-  .aboutProduct h2,
-  .aboutDevs h2 {
-    font-size: 2.4rem;
-    font-weight: bold;
-  }
-  .aboutProduct p,
-  .aboutDevs p {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-  }
-  .aboutProduct .gallery {
-    margin: 1% 0;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .aboutProduct .gallery .galleryImg {
-    width: 40%;
-  }
-  .aboutProduct .gallery .galleryImg:nth-child(2) {
-    display: block;
-  }
-  /* .aboutProduct .gallery .galleryImg:nth-child(3) {
+	.aboutProduct h2,
+	.aboutDevs h2 {
+		font-size: 2.4rem;
+		font-weight: bold;
+	}
+	.aboutProduct p,
+	.aboutDevs p {
+		font-size: 1.6rem;
+		line-height: 2.4rem;
+	}
+	.aboutProduct .gallery {
+		margin: 1% 0;
+		width: 100%;
+		height: 50vh;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.aboutProduct .gallery .galleryImg {
+		width: 40%;
+	}
+	.aboutProduct .gallery .galleryImg:nth-child(2) {
+		display: block;
+	}
+	/* .aboutProduct .gallery .galleryImg:nth-child(3) {
 		display: block;
 	} */
-  .cardContainer .card {
-    color: black;
-    background-image: none;
-    width: 100%;
-    height: 20%;
-    display: flex;
-    /* height: 30%; */
-  }
+	.cardContainer .card {
+		color: black;
+		background-image: none;
+		width: 100%;
+		height: 20%;
+		display: flex;
+		/* height: 30%; */
+	}
 
-  .card .cardText {
-    /* border: 1px solid black; */
-    border-radius: 0 20px 0 0;
-    margin: 0 0 0 1%;
-    line-height: 25px;
-    width: 100%;
-    height: auto;
-  }
-  .card .devName {
-    font-size: 3rem;
-    margin: 2% 0;
-  }
-  .card .devRole {
-    font-size: 2.4rem;
-  }
-  .card p {
-    font-size: 1.6rem;
-  }
-  .card .devPhoto {
-    /* border: 1px solid black; */
-    display: block;
-    width: 30%;
-    border-radius: 0 20px 0 20px;
-    margin: -50px 0 0 0;
-  }
-  .card:nth-child(5) .devPhoto {
-    width: 45%;
-  }
+	.card .cardText {
+		/* border: 1px solid black; */
+		border-radius: 0 20px 0 0;
+		margin: 0 0 0 1%;
+		line-height: 25px;
+		width: 100%;
+		height: auto;
+	}
+	.card .devName {
+		font-size: 3rem;
+		margin: 2% 0;
+	}
+	.card .devRole {
+		font-size: 2.4rem;
+	}
+	.card p {
+		font-size: 1.6rem;
+	}
+	.card .devPhoto {
+		/* border: 1px solid black; */
+		display: block;
+		width: 30%;
+		border-radius: 0 20px 0 20px;
+		margin: -50px 0 0 0;
+	}
+	.card:nth-child(5) .devPhoto {
+		width: 45%;
+	}
 }
 
 /* ======================================================================= */
 @media (min-width: 800px) {
-  i {
-    font-size: 2rem;
-  }
+	i {
+		font-size: 2rem;
+	}
 
-  .mContent {
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
+	.mContent {
+		margin-top: 6%;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
 
-  .contentColumn {
-    font-size: 2rem;
-    line-height: 1.5;
-    color: rgba(48, 64, 77, 0.8);
-    width: 100%;
-  }
+	.contentColumn {
+		font-size: 2rem;
+		line-height: 1.5;
+		color: rgba(48, 64, 77, 0.8);
+		width: 100%;
+	}
 
-  .contentImage img {
-    display: none;
-  }
+	.contentImage img {
+		display: none;
+	}
 
-  .contentColumn h1 {
-    margin-top: 1%;
-    font-size: 3rem;
-  }
+	.contentColumn h1 {
+		margin-top: 1%;
+		font-size: 3rem;
+	}
 
-  .heroContainer h2 {
-    font-size: 1.8rem;
-  }
+	.heroContainer h2 {
+		font-size: 1.8rem;
+	}
 
-  .heroContainer p {
-    font-size: 2rem;
-  }
+	.heroContainer p {
+		font-size: 2rem;
+	}
 
-  .howReplateWorks {
-    width: 100%;
-  }
+	.howReplateWorks {
+		width: 100%;
+	}
 
-  .replateContent {
-    align-items: baseline;
-    width: 50%;
-  }
+	.replateContent {
+		align-items: baseline;
+		width: 50%;
+	}
 
-  .replateContent h2 {
-    font-size: 4rem;
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
+	.replateContent h2 {
+		font-size: 4rem;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
 
-  .replateContent h3 {
-    font-size: 3rem;
-    margin-top: 1%;
-  }
+	.replateContent h3 {
+		font-size: 3rem;
+		margin-top: 1%;
+	}
 
-  .replateContent p {
-    font-size: 1.8rem;
-  }
+	.replateContent p {
+		font-size: 1.8rem;
+	}
 
-  .step1,
-  .step2,
-  .step3 {
-    margin-left: 2%;
-    width: 80%;
-  }
+	.step1,
+	.step2,
+	.step3 {
+		margin-left: 2%;
+		width: 80%;
+	}
 
-  .donateContent {
-    text-decoration: none;
-    align-items: baseline;
-    text-align: center;
-    width: 45%;
-  }
+	.donateContent {
+		text-decoration: none;
+		align-items: baseline;
+		text-align: center;
+		width: 45%;
+	}
 
-  .donateContent a {
-    text-decoration: none;
-  }
+	.donateContent a {
+		text-decoration: none;
+	}
 
-  .donateContent i {
-    margin-bottom: 2%;
-    font-size: 4rem;
-  }
+	.donateContent i {
+		margin-bottom: 2%;
+		font-size: 4rem;
+	}
 
-  .bannerContent1 h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+	.bannerContent1 h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .bannerContent1 p {
-    font-size: 1.8rem;
-  }
-  .bannerContent2 a {
-    font-size: 1.8rem;
-  }
+	.bannerContent1 p {
+		font-size: 1.8rem;
+	}
+	.bannerContent2 a {
+		font-size: 1.8rem;
+	}
 }
 
 /* ======================================================================= */
 @media (min-width: 1024px) {
-  .mContent {
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
+	.mContent {
+		margin-top: 6%;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
 
-  .contentColumn {
-    font-size: 2rem;
-    line-height: 1.5;
-    color: rgba(48, 64, 77, 0.8);
-    width: 48%;
-  }
+	.contentColumn {
+		font-size: 2rem;
+		line-height: 1.5;
+		color: rgba(48, 64, 77, 0.8);
+		width: 48%;
+	}
 
-  .contentImage {
-    display: flex;
-    padding: 5% 0;
-  }
+	.contentImage {
+		display: flex;
+		padding: 5% 0;
+	}
 
-  .contentImage img {
-    display: block;
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    filter: drop-shadow(0 0 0.2rem grey);
-  }
+	.contentImage img {
+		display: block;
+		width: 450px;
+		height: 450px;
+		border-radius: 50%;
+		filter: drop-shadow(0 0 0.2rem grey);
+	}
 
-  .contentColumn h1 {
-    margin-top: 1%;
-    font-size: 3rem;
-  }
+	.contentColumn h1 {
+		margin-top: 1%;
+		font-size: 3rem;
+	}
 
-  .heroContainer h2 {
-    font-size: 1.8rem;
-  }
+	.heroContainer h2 {
+		font-size: 1.8rem;
+	}
 
-  .heroContainer p {
-    font-size: 2rem;
-  }
+	.heroContainer p {
+		font-size: 2rem;
+	}
 
-  .howReplateWorks {
-    width: 100%;
-  }
+	.howReplateWorks {
+		width: 100%;
+	}
 
-  .replateContent {
-    align-items: baseline;
-  }
+	.replateContent {
+		align-items: baseline;
+	}
 
-  .replateContent h2 {
-    font-size: 4rem;
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
+	.replateContent h2 {
+		font-size: 4rem;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
 
-  .replateContent h3 {
-    font-size: 3rem;
-    margin-top: 1%;
-  }
+	.replateContent h3 {
+		font-size: 3rem;
+		margin-top: 1%;
+	}
 
-  .replateContent p {
-    font-size: 1.8rem;
-  }
+	.replateContent p {
+		font-size: 1.8rem;
+	}
 
-  .step1,
-  .step2,
-  .step3 {
-    margin-left: 2%;
-    width: 80%;
-  }
+	.step1,
+	.step2,
+	.step3 {
+		margin-left: 2%;
+		width: 80%;
+	}
 
-  .donateContent {
-    text-decoration: none;
-    align-items: baseline;
-    text-align: center;
-    width: 45%;
-  }
+	.donateContent {
+		text-decoration: none;
+		align-items: baseline;
+		text-align: center;
+		width: 45%;
+	}
 
-  .donateContent a {
-    text-decoration: none;
-  }
+	.donateContent a {
+		text-decoration: none;
+	}
 
-  .donateContent i {
-    margin-bottom: 2%;
-    font-size: 4rem;
-  }
+	.donateContent i {
+		margin-bottom: 2%;
+		font-size: 4rem;
+	}
 
-  .bannerContent1 h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+	.bannerContent1 h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .bannerContent1 p {
-    font-size: 1.8rem;
-  }
-  .bannerContent2 a {
-    font-size: 1.8rem;
-  }
-  header {
-    flex-direction: row;
-    align-items: center;
-  }
-  header .logoName img {
-    width: 30%;
-  }
-  header .headerNav {
-    width: 50%;
-  }
-  header .headerNav span {
-    height: 50px;
-  }
-  header .headerNav a {
-    font-size: 2rem;
-  }
+	.bannerContent1 p {
+		font-size: 1.8rem;
+	}
+	.bannerContent2 a {
+		font-size: 1.8rem;
+	}
+	header {
+		flex-direction: row;
+		align-items: center;
+	}
+	header .logoName img {
+		width: 30%;
+	}
+	header .headerNav {
+		width: 60%;
+	}
+	header .headerNav span {
+		height: 50px;
+	}
+	header .headerNav a {
+		font-size: 2rem;
+	}
 
-  .aboutProduct h2,
-  .aboutDevs h2 {
-    font-size: 2.4rem;
-    font-weight: bold;
-  }
-  .aboutProduct p,
-  .aboutDevs p {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-  }
-  .aboutProduct .gallery {
-    margin: 1% 0;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: space-between;
-  }
-  .aboutProduct .gallery .galleryImg {
-    width: 32%;
-  }
-  .aboutProduct .gallery .galleryImg:nth-child(2) {
-    display: block;
-  }
-  .aboutProduct .gallery .galleryImg:nth-child(3) {
-    display: block;
-  }
-  .cardContainer .card {
-    color: black;
-    background-image: none;
-    width: 48%;
-    display: flex;
-    height: 62vh;
-  }
+	.aboutProduct h2,
+	.aboutDevs h2 {
+		font-size: 2.4rem;
+		font-weight: bold;
+	}
+	.aboutProduct p,
+	.aboutDevs p {
+		font-size: 1.6rem;
+		line-height: 2.4rem;
+	}
+	.aboutProduct .gallery {
+		margin: 1% 0;
+		width: 100%;
+		height: 50vh;
+		display: flex;
+		justify-content: space-between;
+	}
+	.aboutProduct .gallery .galleryImg {
+		width: 32%;
+	}
+	.aboutProduct .gallery .galleryImg:nth-child(2) {
+		display: block;
+	}
+	.aboutProduct .gallery .galleryImg:nth-child(3) {
+		display: block;
+	}
+	.cardContainer .card {
+		color: black;
+		background-image: none;
+		width: 48%;
+		display: flex;
+		height: 62vh;
+	}
 
-  .card:nth-child(8) {
-    overflow: hidden;
-  }
+	.card:nth-child(8) {
+		overflow: hidden;
+	}
 
-  .card .cardText {
-    /* border: 1px solid black; */
-    border-radius: 0 20px 0 0;
-    margin: 0 0 0 1%;
-    padding: 1%;
-    line-height: 25px;
-    width: 30%;
-    height: auto;
-  }
+	.card .cardText {
+		/* border: 1px solid black; */
+		border-radius: 0 20px 0 0;
+		margin: 0 0 0 1%;
+		padding: 1%;
+		line-height: 25px;
+		width: 30%;
+		height: auto;
+	}
 
-  .card:nth-child(2) p,
-  .card:nth-child(6) p {
-    font-size: 1.3rem;
-  }
-  .card:nth-child(8) p {
-    font-size: 1.2rem;
-  }
-  .card .devName {
-    font-size: 2.6rem;
-    margin: 2% 0;
-  }
-  .card .devRole {
-    font-size: 2rem;
-  }
-  .card p {
-    font-size: 1.6rem;
-  }
+	.card:nth-child(2) p,
+	.card:nth-child(6) p {
+		font-size: 1.3rem;
+	}
+	.card:nth-child(8) p {
+		font-size: 1.2rem;
+	}
+	.card .devName {
+		font-size: 2.6rem;
+		margin: 2% 0;
+	}
+	.card .devRole {
+		font-size: 2rem;
+	}
+	.card p {
+		font-size: 1.6rem;
+	}
 
-  .card .devPhoto {
-    /* border: 1px solid black; */
-    display: block;
-    width: 70%;
-    border-radius: 0 20px 0 20px;
-  }
-  .card:nth-child(5) .devPhoto {
-    width: 70%;
-  }
-  .card:nth-child(8) .devPhoto {
-    margin-bottom: -200px;
-    object-fit: cover;
-    object-position: center;
-  }
+	.card .devPhoto {
+		/* border: 1px solid black; */
+		display: block;
+		width: 70%;
+		border-radius: 0 20px 0 20px;
+	}
+	.card:nth-child(5) .devPhoto {
+		width: 70%;
+	}
+	.card:nth-child(8) .devPhoto {
+		margin-bottom: -200px;
+		object-fit: cover;
+		object-position: center;
+	}
 
-  .footerNav a {
-    font-size: 1.8rem;
-  }
+	.footerNav a {
+		font-size: 1.8rem;
+	}
 }
