@@ -348,16 +348,10 @@ header .headerNav .btn:hover {
   color: #d35400;
 }
 
-.horzline {
-  margin-top: 2%;
-  border-top: 1px dashed white;
-  display: flex;
-}
-
 footer {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
-  background-color: #fcb131;
+  background-color: #ffbb3c;
   color: #fff;
   /* padding: 2%; */
   display: flex;
@@ -367,6 +361,7 @@ footer {
 }
 
 footer a {
+  font-size: 1.8rem;
   color: #fff;
   text-decoration: none;
 }
@@ -381,11 +376,11 @@ footer div {
 }
 
 .footerNav {
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 48%;
-  padding-top: 1%;
   /* border: 1px solid black; */
 }
 
@@ -404,7 +399,6 @@ footer div {
 
 nav.social a {
   display: flex;
-  margin: 2%, 2%;
 }
 
 /* =================== About Us Page Styles============= */
@@ -646,9 +640,13 @@ nav.social a {
   }
 
   .donateContent a {
+    margin-bottom: 2%;
     text-decoration: none;
   }
 
+  .donateContent p {
+    margin-bottom: 4%;
+  }
   .bannerContent1 h2 {
     font-size: 3rem;
     margin-top: 2%;
@@ -668,6 +666,10 @@ nav.social a {
 
   .footerNav {
     margin-bottom: 5%;
+  }
+
+  .footerNav a {
+    font-size: 1.5rem;
   }
 
   .social {
@@ -805,22 +807,6 @@ nav.social a {
   }
   .card .devRole {
     font-size: 2.4rem;
-  }
-
-  footer {
-    font-size: 2.4rem;
-  }
-
-  .social {
-    width: 48%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  nav.social a {
-    display: flex;
-    margin: 2%, 2%;
   }
 }
 
