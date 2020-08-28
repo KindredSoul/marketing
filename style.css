@@ -160,11 +160,11 @@ header .logoName {
   display: flex;
   justify-content: center;
   /* border: 1px solid black; */
-  width: 20%;
+  width: 25%;
 }
 
 header .logoName img {
-  width: 70%;
+  width: 59%;
 }
 
 header .headerNav {
@@ -385,7 +385,6 @@ footer div {
 }
 
 .footerNav a {
-  font-size: 1.8rem;
   margin: 1% 0;
 }
 
@@ -407,31 +406,19 @@ nav.social a {
   padding: 2%;
 }
 
+.topImage3 {
+  background-image: url("/Images/donation6.jpg");
+}
+
 .aboutProduct {
   /* border: 1px solid black; */
-  margin-bottom: 4%;
+  margin-bottom: 10%;
   padding: 2%;
   text-align: center;
   border-radius: 0 20px 0 20px;
   box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
 }
 
-.aboutProduct .gallery {
-  margin: 1% 0;
-  width: 100%;
-  height: 40vh;
-  display: flex;
-  justify-content: space-between;
-}
-.aboutProduct .gallery .galleryImg {
-  width: 100%;
-}
-.aboutProduct .gallery .galleryImg:nth-child(2) {
-  display: none;
-}
-.aboutProduct .gallery .galleryImg:nth-child(3) {
-  display: none;
-}
 .aboutProduct h2,
 .aboutDevs h2 {
   font-size: 3rem;
@@ -818,7 +805,7 @@ nav.social a {
     align-items: center;
   }
   header .logoName {
-    width: 20%;
+    width: 25%;
   }
   header .headerNav {
     /* border: 1px solid black; */
@@ -1099,14 +1086,13 @@ nav.social a {
     align-items: center;
   }
   header .logoName img {
-    width: 50%;
+    width: 30%;
   }
   header .headerNav {
-    /* border: 1px solid black; */
-    width: 80%;
+    width: 50%;
   }
   header .headerNav span {
-    height: 40px;
+    height: 50px;
   }
   header .headerNav a {
     font-size: 2rem;
