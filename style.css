@@ -398,20 +398,13 @@ footer div {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	padding: 1% 0;
 	/* border: 1px solid black; */
 }
 
 nav.social a {
 	display: flex;
 	margin: 2%, 2%;
-}
-
-footer .copyright {
-	text-align: center;
-	width: 100%;
-	font-size: 1.6rem;
-	/* border: 1px solid black; */
-	margin-bottom: 1%;
 }
 
 /* =================== About Us Page Styles============= */
