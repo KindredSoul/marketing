@@ -86,7 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid grey;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -173,6 +173,7 @@ header .headerNav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2%;
+  font-size: 2rem;
 }
 header .headerNav span {
   border-right: thin solid gray;
@@ -180,7 +181,7 @@ header .headerNav span {
   height: 20px;
 }
 header .headerNav a {
-  font-size: 5rem;
+  font-size: 2rem;
   text-align: center;
   text-decoration: none;
   margin: 0 2%;
@@ -621,25 +622,6 @@ footer .copyright {
     font-size: 1.8rem;
   }
 
-  .aboutProduct h2,
-  .aboutDevs h2 {
-    font-size: 4rem;
-  }
-  .aboutProduct p,
-  .aboutDevs p {
-    font-size: 2rem;
-  }
-  .card .devName {
-    font-size: 3rem;
-  }
-  .card .devRole {
-    font-size: 2.4rem;
-  }
-
-  footer {
-    font-size: 1.5rem;
-  }
-
   .footerNav {
     margin-bottom: 5%;
   }
@@ -663,6 +645,140 @@ footer .copyright {
   }
 }
 
+/* =================== About Us Page Styles============= */
+.mainContent {
+  padding: 2%;
+}
+
+.aboutProduct {
+  /* border: 1px solid black; */
+  margin-bottom: 4%;
+  padding: 2%;
+  text-align: center;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
+}
+
+.aboutProduct .gallery {
+  margin: 1% 0;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutProduct .gallery .galleryImg {
+  width: 100%;
+}
+.aboutProduct .gallery .galleryImg:nth-child(2) {
+  display: none;
+}
+.aboutProduct .gallery .galleryImg:nth-child(3) {
+  display: none;
+}
+.aboutProduct h2,
+.aboutDevs h2 {
+  font-size: 3rem;
+  margin-bottom: 1%;
+  color: #ff5e00;
+}
+.aboutProduct p,
+.aboutDevs p {
+  font-size: 1.75rem;
+}
+
+.aboutDevs {
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 2% 3;
+  border-radius: 0 20px 0 20px;
+}
+.aboutDevs .cardContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cardContainer .card {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 310px;
+  margin: 3% 0;
+  color: white;
+  text-align: left;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0 0 30px #eceaea70, 0 0 30px #eceaea69;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.cardContainer .card1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(Images/brian_hague.png);
+}
+.cardContainer .card2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(Images/ashton_turner.jpg);
+}
+.cardContainer .card3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(Images/emilio_ramirez.jpg);
+}
+.cardContainer .card4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(Images/rohith_sachdeva.jpg);
+}
+.cardContainer .card5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(Images/rod_hentringer.jpg);
+}
+.cardContainer .card6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(Images/jabril_github.jpg);
+}
+.cardContainer .card7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url(Images/tim_mcdonald.jpg);
+}
+.cardContainer .card8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(Images/michael_hernandez.png);
+}
+
+.card .cardText {
+  /* border: 1px solid black; */
+  border-radius: 0 20px 0 0;
+  padding: 0 1%;
+  line-height: 25px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.card .devName {
+  font-size: 2rem;
+  margin: 2% 0;
+}
+.card .devRole {
+  font-size: 2rem;
+}
+.card p {
+  font-size: 1.6rem;
+}
+.card .devPhoto {
+  display: none;
+  /* border: 1px solid black;
+	width: 30%;
+	height: 100%;
+	border-radius: 0 20px 0 20px; */
+}
+.devName,
+.devRole,
+.card p {
+  margin: 1% 0;
+}
+
 /* ===== 500px ===== */
 
 @media (min-width: 500px) {
@@ -678,7 +794,7 @@ footer .copyright {
   header .headerNav a {
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .mContent {
@@ -780,6 +896,15 @@ footer .copyright {
   .aboutDevs p {
     font-size: 2rem;
   }
+  .aboutProduct .gallery {
+    justify-content: space-around;
+  }
+  .aboutProduct .gallery .galleryImg {
+    width: 48%;
+  }
+  .aboutProduct .gallery .galleryImg:nth-child(2) {
+    display: block;
+  }
   .card .devName {
     font-size: 3rem;
   }
@@ -814,6 +939,80 @@ footer .copyright {
   display: none;
 }
 
+/* ===== 768px ===== about us*/
+
+@media (min-width: 768px) {
+  header .headerNav a {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+  }
+
+  .aboutProduct h2,
+  .aboutDevs h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+  .aboutProduct p,
+  .aboutDevs p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  .aboutProduct .gallery {
+    margin: 1% 0;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .aboutProduct .gallery .galleryImg {
+    width: 40%;
+  }
+  .aboutProduct .gallery .galleryImg:nth-child(2) {
+    display: block;
+  }
+  /* .aboutProduct .gallery .galleryImg:nth-child(3) {
+  display: block;
+} */
+  .cardContainer .card {
+    color: black;
+    background-image: none;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /* height: 30%; */
+  }
+
+  .card .cardText {
+    /* border: 1px solid black; */
+    border-radius: 0 20px 0 0;
+    margin: 0 0 0 1%;
+    line-height: 25px;
+    width: 100%;
+    height: auto;
+  }
+  .card .devName {
+    font-size: 3rem;
+    margin: 2% 0;
+  }
+  .card .devRole {
+    font-size: 2.4rem;
+  }
+  .card p {
+    font-size: 1.6rem;
+  }
+  .card .devPhoto {
+    /* border: 1px solid black; */
+    display: block;
+    width: 30%;
+    border-radius: 0 20px 0 20px;
+    margin: -50px 0 0 0;
+  }
+  .card:nth-child(5) .devPhoto {
+    width: 45%;
+  }
+}
+
 /* ===== 800px ===== */
 
 @media (min-width: 800px) {
@@ -833,8 +1032,11 @@ footer .copyright {
   }
 
   header .headerNav a {
-    font-size: 1rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
   }
+
   .headerNav {
     margin-top: 2%;
     margin-bottom: 2%;
@@ -984,7 +1186,7 @@ footer .copyright {
   }
 
   .headerNav a {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .headerNav {
     margin-top: 2%;
@@ -1094,17 +1296,83 @@ footer .copyright {
 
   .aboutProduct h2,
   .aboutDevs h2 {
-    font-size: 4rem;
+    font-size: 2.4rem;
+    font-weight: bold;
   }
   .aboutProduct p,
   .aboutDevs p {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  .aboutProduct .gallery {
+    margin: 1% 0;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .aboutProduct .gallery .galleryImg {
+    width: 32%;
+  }
+  .aboutProduct .gallery .galleryImg:nth-child(2) {
+    display: block;
+  }
+  .aboutProduct .gallery .galleryImg:nth-child(3) {
+    display: block;
+  }
+  .cardContainer .card {
+    color: black;
+    background-image: none;
+    width: 48%;
+    display: flex;
+    height: 62vh;
+  }
+  .card:nth-child(8) {
+    overflow: hidden;
+  }
+
+  .card .cardText {
+    /* border: 1px solid black; */
+    border-radius: 0 20px 0 0;
+    margin: 0 0 0 1%;
+    padding: 1%;
+    line-height: 25px;
+    width: 30%;
+    height: auto;
+    overflow: scroll;
+  }
+
+  .card:nth-child(2) p,
+  .card:nth-child(6) p {
+    font-size: 1.3rem;
+  }
+  .card:nth-child(8) p {
+    font-size: 1.2rem;
   }
   .card .devName {
-    font-size: 3rem;
+    font-size: 2.6rem;
+    margin: 2% 0;
   }
   .card .devRole {
-    font-size: 2.4rem;
+    font-size: 2rem;
+  }
+  .card p {
+    font-size: 1.6rem;
+  }
+
+  .card .devPhoto {
+    /* border: 1px solid black; */
+    display: block;
+    width: 70%;
+    border-radius: 0 20px 0 20px;
+  }
+  .card:nth-child(5) .devPhoto {
+    width: 70%;
+  }
+  .card:nth-child(8) .devPhoto {
+    margin-bottom: -200px;
+    object-fit: cover;
+    object-position: center;
   }
 
   footer {
