@@ -412,31 +412,19 @@ nav.social a {
 	padding: 2%;
 }
 
+.topImage3 {
+	background-image: url("/Images/donation6.jpg");
+}
+
 .aboutProduct {
 	/* border: 1px solid black; */
-	margin-bottom: 4%;
+	margin-bottom: 10%;
 	padding: 2%;
 	text-align: center;
 	border-radius: 0 20px 0 20px;
 	box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
 }
 
-.aboutProduct .gallery {
-	margin: 1% 0;
-	width: 100%;
-	height: 40vh;
-	display: flex;
-	justify-content: space-between;
-}
-.aboutProduct .gallery .galleryImg {
-	width: 100%;
-}
-.aboutProduct .gallery .galleryImg:nth-child(2) {
-	display: none;
-}
-.aboutProduct .gallery .galleryImg:nth-child(3) {
-	display: none;
-}
 .aboutProduct h2,
 .aboutDevs h2 {
 	font-size: 3rem;
