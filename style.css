@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 1px solid grey;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers **/
@@ -105,1031 +105,1104 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol,
 ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote,
 q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+	content: "";
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 /* =============End of Reset============== */
 /* =====================Start of Team Styles==================== */
 html {
-  font-size: 62.5%;
-  box-sizing: border-box;
+	font-size: 62.5%;
+	box-sizing: border-box;
 }
 body {
-  font-family: "Heebo", sans-serif;
-  text-decoration: none;
-  color: rgba(48, 64, 77, 0.8);
+	font-size: 2rem;
+	font-family: "Heebo", sans-serif;
+	color: #4f4f4f;
+	text-decoration: none;
 }
 
 i {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 /* ============================ Header ================ */
 header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1% 0;
-  border-bottom: 1px solid black;
-  /* Header was causing a horizontal scrollbar to appear  */
-  overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1% 0;
+	border-bottom: 1px solid black;
+	/* Header was causing a horizontal scrollbar to appear  */
+	overflow: hidden;
 }
 header .logoName {
-  display: flex;
-  justify-content: center;
-  /* border: 1px solid black; */
-  width: 15%;
+	display: flex;
+	justify-content: center;
+	/* border: 1px solid black; */
+	width: 20%;
 }
 
 header .logoName img {
-  width: 50%;
+	width: 70%;
 }
 
 header .headerNav {
-  /* border: 1px solid black; */
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 2%;
+	/* border: 1px solid black; */
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2%;
 }
 header .headerNav span {
-  border-right: thin solid gray;
-  width: 0;
-  height: 20px;
+	border-right: thin solid gray;
+	width: 0;
+	height: 20px;
 }
 header .headerNav a {
-  font-size: 5rem;
-  text-align: center;
-  text-decoration: none;
-  margin: 0 2%;
-  color: rgb(255, 94, 0);
+	font-size: 1.8rem;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 2%;
+	color: rgb(255, 94, 0);
 }
 header .headerNav .btn {
-  /* border: 1px solid black; */
-  padding: 1% 2.5%;
-  border-radius: 50px;
-  color: white;
-  background-color: rgb(255, 94, 0);
-  /* transition: 1s; */
+	/* border: 1px solid black; */
+	padding: 1% 2.5%;
+	border-radius: 50px;
+	color: white;
+	background-color: rgb(255, 94, 0);
+	/* transition: 1s; */
 }
 header .headerNav .btn:hover {
-  transition: 1s;
-  background-color: white;
-  color: rgb(255, 94, 0);
+	transition: 1s;
+	background-color: white;
+	color: rgb(255, 94, 0);
 }
 header .headerNav .btn:hover {
-  transition: 1s;
-  background-color: white;
-  color: rgb(255, 94, 0);
+	transition: 1s;
+	background-color: white;
+	color: rgb(255, 94, 0);
 }
 
 /* ====================== Main Content ====================== */
 
 .topImage {
-  height: 45vh;
-  background-image: url("/Images/donation.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	height: 45vh;
+	background-image: url("/Images/donation.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .topImage2 {
-  height: 45vh;
-  background-image: url("/Images/donation5.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	height: 45vh;
+	background-image: url("/Images/donation5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .replateTitle {
-  display: flex;
-  background: #f0c692;
-  font-size: 2rem;
-  width: 100%;
+	display: flex;
+	background: #f0c692;
+	font-size: 2rem;
+	width: 100%;
+}
+
+.contentImage img {
+	display: none;
 }
 
 .replateTitle h2 {
-  margin: 4% 4% 4% 4%;
-  font-size: 4rem;
-  width: 100%;
-  text-align: center;
+	margin: 4% 4% 4% 4%;
+	font-size: 4rem;
+	width: 100%;
+	text-align: center;
 }
 
 .heroContainer {
-  margin-top: 13%;
+	margin-top: 13%;
 }
 .heroContainer h2 a {
-  margin-top: 5%;
-  color: coral;
-  text-decoration: none;
-  font-size: 2.5rem;
+	margin-top: 5%;
+	color: coral;
+	text-decoration: none;
+	font-size: 2.5rem;
 }
 
 .howReplateWorks {
-  display: flex;
-  background: #f0c692;
-  font-size: 2rem;
-  width: 100%;
+	display: flex;
+	background: #f0c692;
+	font-size: 2rem;
+	width: 100%;
 }
 
 .howReplateWorks h2 {
-  padding: 2%;
-  font-size: 4.7rem;
-  text-align: center;
+	padding: 2%;
+	font-size: 4.7rem;
+	text-align: center;
 }
 
 .howReplateWorks h3 {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 
 .replateContent {
-  font-size: 2.5rem;
-  width: 48%;
+	font-size: 2.5rem;
+	width: 48%;
 }
 
 .replateContent p {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .step1,
 .step2,
 .step3 {
-  padding: 1%;
-  margin-left: 2%;
-  width: 60%;
+	padding: 1%;
+	margin-left: 2%;
+	width: 60%;
 }
 
 .step1 p {
-  font-size: 5rem;
+	font-size: 5rem;
 }
 
 .donateContent {
-  width: 45%;
+	width: 45%;
 }
 .donateContent a h3 {
-  text-decoration: none;
-  color: rgba(48, 64, 77, 0.8);
+	text-decoration: none;
+	color: rgba(48, 64, 77, 0.8);
 }
 
 .howReplateWorks h3 {
-  font-size: 3rem;
-  margin-bottom: 2%;
+	font-size: 3rem;
+	margin-bottom: 2%;
 }
 
 .step1,
 .step2,
 .step3 {
-  padding: 2%;
-  margin-left: 2%;
+	padding: 2%;
+	margin-left: 2%;
 }
 
 .banner {
-  background-color: #ddd4a0;
-  font-size: 2rem;
+	background-color: #ddd4a0;
+	font-size: 2rem;
 }
 
 .bannerContent1 h2 {
-  margin-left: 2%;
-  margin-bottom: 2%;
-  font-size: 4.7rem;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	font-size: 4.7rem;
 }
 
 .banner p {
-  font-size: 2rem;
-  margin-left: 2%;
+	font-size: 2rem;
+	margin-left: 2%;
 }
 
 .bannerContent1 {
-  padding: 2%;
+	padding: 2%;
 }
 
 .bannerContent2 {
-  display: flex;
-  padding: 4%;
-  text-decoration: none;
+	display: flex;
+	padding: 4%;
+	text-decoration: none;
 }
 
 .bannerContent2 a {
-  margin-left: 1%;
-  text-decoration: none;
-  color: #d35400;
+	margin-left: 1%;
+	text-decoration: none;
+	color: #d35400;
 }
 
 .horzline {
-  margin-top: 2%;
-  border-top: 1px dashed white;
-  display: flex;
+	margin-top: 2%;
+	border-top: 1px dashed white;
+	display: flex;
 }
 
 footer {
-  font-size: 1.5rem;
-  text-decoration: none;
-  background-color: #fcb131;
-  color: #fff;
-  padding: 2%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	font-size: 1.5rem;
+	text-decoration: none;
+	background-color: #fcb131;
+	color: #fff;
+	/* padding: 2%; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 footer a {
-  color: #fff;
-  text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 footer a:hover {
-  color: #4f4f4f;
+	color: #4f4f4f;
 }
 footer div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 
 .footerNav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 48%;
-  padding: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 48%;
+	padding-top: 1%;
+	/* border: 1px solid black; */
 }
 
 .footerNav a {
-  margin: 1% 0;
+	margin: 1% 0;
 }
 
 .social {
-  width: 48%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+	width: 48%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1% 0;
+	/* border: 1px solid black; */
 }
 
 nav.social a {
-  display: flex;
-  margin: 2%, 2%;
-}
-
-footer .copyright {
-  text-align: center;
-  width: 100%;
+	display: flex;
+	margin: 2%, 2%;
 }
 
 /* =================== About Us Page Styles============= */
 .mainContent {
-  padding: 2%;
+	padding: 2%;
 }
 
 .aboutProduct {
-  /* border: 1px solid black; */
-  margin-bottom: 4%;
-  padding: 2%;
-  text-align: center;
-  border-radius: 0 20px 0 20px;
-  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
+	/* border: 1px solid black; */
+	margin-bottom: 4%;
+	padding: 2%;
+	text-align: center;
+	border-radius: 0 20px 0 20px;
+	box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
+}
+
+.aboutProduct .gallery {
+	margin: 1% 0;
+	width: 100%;
+	height: 40vh;
+	display: flex;
+	justify-content: space-between;
+}
+.aboutProduct .gallery .galleryImg {
+	width: 100%;
+}
+.aboutProduct .gallery .galleryImg:nth-child(2) {
+	display: none;
+}
+.aboutProduct .gallery .galleryImg:nth-child(3) {
+	display: none;
 }
 .aboutProduct h2,
 .aboutDevs h2 {
-  font-size: 3rem;
-  color: #ff5e00;
+	font-size: 3rem;
+	margin-bottom: 1%;
+	color: #ff5e00;
 }
 .aboutProduct p,
 .aboutDevs p {
-  font-size: 1.75rem;
+	font-size: 1.75rem;
 }
 
 .aboutDevs {
-  /* border: 1px solid black; */
-  text-align: center;
-  padding: 2% 3;
-  border-radius: 0 20px 0 20px;
-  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
+	/* border: 1px solid black; */
+	text-align: center;
+	padding: 2% 3;
+	border-radius: 0 20px 0 20px;
 }
 .aboutDevs .cardContainer {
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .cardContainer .card {
-  width: 45%;
-  margin: 3% 0;
-  color: white;
-  text-align: left;
-  background-size: cover;
-  background-position: center;
-  border-radius: 0 20px 0 20px;
-  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #a8a6a68c;
-  overflow: hidden;
+	/* border: 1px solid black; */
+	width: 100%;
+	height: 310px;
+	margin: 3% 0;
+	color: white;
+	text-align: left;
+	border-radius: 0 20px 0 20px;
+	box-shadow: 0 0 30px #eceaea70, 0 0 30px #eceaea69;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	display: flex;
 }
+
 .cardContainer .card1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/brian_hague.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/brian_hague.png);
 }
 .cardContainer .card2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/ashton_turner.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/ashton_turner.jpg);
 }
 .cardContainer .card3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/emilio_ramirez.jpg);
-  height: 250px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/emilio_ramirez.jpg);
 }
 .cardContainer .card4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/rohith_sachdeva.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/rohith_sachdeva.jpg);
 }
 .cardContainer .card5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/rod_hentringer.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/rod_hentringer.jpg);
 }
 .cardContainer .card6 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/jabril_github.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/jabril_github.jpg);
 }
 .cardContainer .card7 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url();
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+		url(Images/tim_mcdonald.jpg);
 }
 .cardContainer .card8 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url();
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(Images/michael_hernandez.png);
 }
 
 .card .cardText {
-  margin: 4% 5%;
-  display: flex;
-  flex-direction: column;
+	/* border: 1px solid black; */
+	border-radius: 0 20px 0 0;
+	padding: 0 1%;
+	line-height: 25px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+}
+.card .cardText::-webkit-scrollbar {
+	display: none;
+}
+.card .devName {
+	font-size: 2rem;
+	margin: 2% 0;
+}
+.card .devRole {
+	font-size: 2rem;
+}
+.card p {
+	font-size: 1.6rem;
+}
+.card .devPhoto {
+	display: none;
+	/* border: 1px solid black;
+	width: 30%;
+	height: 100%;
+	border-radius: 0 20px 0 20px; */
 }
 .devName,
 .devRole,
 .card p {
-  margin: 1% 0;
-}
-.card .devName {
-  font-size: 2.5rem;
-}
-.card .devRole {
-  font-size: 2rem;
-}
-.card .devPhoto {
-  display: none;
+	margin: 1% 0;
 }
 
-/* ====================== Media Styles ================= */
-
-/* ===== 300px ===== */
-
+/* =================================== Media Styles ================= */
 @media (min-width: 300px) {
-  i {
-    font-size: 2rem;
-  }
+	i {
+		font-size: 2rem;
+	}
 
-  header .logoName {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 35%;
-  }
+	header .logoName {
+		display: flex;
+		justify-content: center;
+		/* border: 1px solid black; */
+		width: 25%;
+	}
 
-  .logoName {
-    max-height: 150px;
-    width: auto;
-  }
+	.logoName {
+		max-height: 150px;
+		width: auto;
+	}
 
-  header .headerNav a {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 1.5rem;
-  }
+	header .headerNav a {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-size: 1.2rem;
+	}
 
-  .contentColumn {
-    padding: 4%;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8rem;
-    line-height: 1.5;
-    color: rgba(48, 64, 77, 0.8);
-  }
+	.contentColumn {
+		padding: 4%;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.8rem;
+		line-height: 1.5;
+		color: rgba(48, 64, 77, 0.8);
+	}
 
-  .contentColumn h1 {
-    margin-top: 2%;
-    font-size: 2.5rem;
-  }
+	/* .contentImage img {
+		display: none;
+	} */
 
-  .heroContainer h2 {
-    font-size: 2.5rem;
-  }
+	.contentColumn h1 {
+		margin-top: 2%;
+		font-size: 2.5rem;
+	}
 
-  .heroContainer p {
-    font-size: 1.8rem;
-  }
+	.heroContainer h2 {
+		font-size: 2.5rem;
+	}
 
-  .howReplateWorks {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-  }
+	.heroContainer p {
+		font-size: 1.8rem;
+	}
 
-  .replateContent {
-    width: 90%;
-  }
+	.howReplateWorks {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+	}
 
-  .replateContent h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+	.replateContent {
+		width: 90%;
+	}
 
-  .replateContent p {
-    font-size: 1.8rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+	.replateContent h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .replateContent h3 {
-    font-size: 2rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+	.replateContent p {
+		font-size: 1.8rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .step1,
-  .step2,
-  .step3 {
-    padding: 2%;
-    margin-left: 2%;
-    width: 90%;
-  }
+	.replateContent h3 {
+		font-size: 2rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .donateContent {
-    text-decoration: none;
-    align-items: baseline;
-    text-align: center;
-    width: 90%;
-    font-size: 1.8rem;
-  }
+	.step1,
+	.step2,
+	.step3 {
+		padding: 2%;
+		margin-left: 2%;
+		width: 90%;
+	}
 
-  .donateContent i {
-    margin-bottom: 2%;
-    font-size: 4rem;
-  }
+	.donateContent {
+		text-decoration: none;
+		align-items: baseline;
+		text-align: center;
+		width: 90%;
+		font-size: 1.8rem;
+	}
 
-  .donateContent a {
-    text-decoration: none;
-  }
+	.donateContent i {
+		margin-bottom: 2%;
+		font-size: 4rem;
+	}
 
-  .bannerContent1 h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 6%;
-  }
+	.donateContent a {
+		text-decoration: none;
+	}
 
-  .bannerContent1 p {
-    font-size: 1.8rem;
-  }
-  .bannerContent2 a {
-    font-size: 1.8rem;
-  }
+	.bannerContent1 h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 6%;
+	}
 
-  .aboutProduct h2,
-  .aboutDevs h2 {
-    font-size: 4rem;
-  }
-  .aboutProduct p,
-  .aboutDevs p {
-    font-size: 2rem;
-  }
-  .card .devName {
-    font-size: 3rem;
-  }
-  .card .devRole {
-    font-size: 2.4rem;
-  }
+	.bannerContent1 p {
+		font-size: 1.8rem;
+	}
+	.bannerContent2 a {
+		font-size: 1.8rem;
+	}
 
-  footer {
-    font-size: 1.5rem;
-  }
+	footer {
+		font-size: 1.5rem;
+	}
 
-  .footerNav {
-    margin-bottom: 5%;
-  }
+	.footerNav {
+		margin-bottom: 5%;
+	}
 
-  .social {
-    width: 48%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
+	.social {
+		width: 48%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
 
-  nav.social a {
-    display: flex;
-    margin: 2%, 2%;
-  }
-
-  footer .copyright {
-    text-align: center;
-    width: 100%;
-    margin: 1% 0;
-  }
+	nav.social a {
+		display: flex;
+		margin: 2%, 2%;
+	}
 }
 
-/* ===== 500px ===== */
-
+/* ================================================================= */
 @media (min-width: 500px) {
-  i {
-    font-size: 2rem;
-  }
+	i {
+		font-size: 2rem;
+	}
 
-  .logoName {
-    max-height: 150px;
-    width: auto;
-  }
+	.mContent {
+		margin-top: 6%;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
 
-  header .headerNav a {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 1rem;
-  }
+	.contentColumn {
+		font-size: 2rem;
+		line-height: 1.5;
+		color: rgba(48, 64, 77, 0.8);
+		width: 100%;
+	}
 
-  .mContent {
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
+	/* .contentImage img {
+		display: none;
+	} */
 
-  .contentColumn {
-    font-size: 2rem;
-    line-height: 1.5;
-    color: rgba(48, 64, 77, 0.8);
-    width: 100%;
-  }
+	.contentColumn h1 {
+		margin-top: 1%;
+		font-size: 3rem;
+	}
 
-  .contentImage img {
-    display: none;
-  }
+	.heroContainer h2 {
+		font-size: 1.8rem;
+	}
 
-  .contentColumn h1 {
-    margin-top: 1%;
-    font-size: 3rem;
-  }
+	.heroContainer p {
+		font-size: 2rem;
+	}
 
-  .heroContainer h2 {
-    font-size: 1.8rem;
-  }
+	.howReplateWorks {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
 
-  .heroContainer p {
-    font-size: 2rem;
-  }
+	.replateContent {
+		width: 50%;
+	}
 
-  .howReplateWorks {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
+	.replateContent h2 {
+		font-size: 4rem;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
 
-  .replateContent {
-    width: 50%;
-  }
+	.replateContent h3 {
+		font-size: 3rem;
+		margin-top: 1%;
+	}
 
-  .replateContent h2 {
-    font-size: 4rem;
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
+	.replateContent p {
+		font-size: 1.8rem;
+	}
 
-  .replateContent h3 {
-    font-size: 3rem;
-    margin-top: 1%;
-  }
+	.donateContent {
+		text-decoration: none;
+		width: 45%;
+	}
 
-  .replateContent p {
-    font-size: 1.8rem;
-  }
+	.donateContent i {
+		margin-bottom: 2%;
+		font-size: 4rem;
+	}
 
-  .donateContent {
-    text-decoration: none;
-    width: 45%;
-  }
+	.donateContent a {
+		text-decoration: none;
+	}
 
-  .donateContent i {
-    margin-bottom: 2%;
-    font-size: 4rem;
-  }
+	.step1,
+	.step2,
+	.step3 {
+		padding: 2%;
+		margin-left: 2%;
+		width: 80%;
+	}
 
-  .donateContent a {
-    text-decoration: none;
-  }
+	.bannerContent1 h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 6%;
+	}
 
-  .step1,
-  .step2,
-  .step3 {
-    padding: 2%;
-    margin-left: 2%;
-    width: 80%;
-  }
+	.bannerContent1 p {
+		font-size: 1.5rem;
+	}
+	.bannerContent2 a {
+		font-size: 1.8rem;
+	}
 
-  .bannerContent1 h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 6%;
-  }
+	header .headerNav a {
+		font-size: 1.8rem;
+	}
+	.aboutProduct h2,
+	.aboutDevs h2 {
+		font-size: 4rem;
+	}
+	.aboutProduct p,
+	.aboutDevs p {
+		font-size: 2rem;
+	}
+	.aboutProduct .gallery {
+		justify-content: space-around;
+	}
+	.aboutProduct .gallery .galleryImg {
+		width: 48%;
+	}
+	.aboutProduct .gallery .galleryImg:nth-child(2) {
+		display: block;
+	}
+	.card .devName {
+		font-size: 3rem;
+	}
+	.card .devRole {
+		font-size: 2.4rem;
+	}
 
-  .bannerContent1 p {
-    font-size: 1.5rem;
-  }
-  .bannerContent2 a {
-    font-size: 1.8rem;
-  }
+	footer {
+		font-size: 2.4rem;
+	}
 
-  .aboutProduct h2,
-  .aboutDevs h2 {
-    font-size: 4rem;
-  }
-  .aboutProduct p,
-  .aboutDevs p {
-    font-size: 2rem;
-  }
-  .card .devName {
-    font-size: 3rem;
-  }
-  .card .devRole {
-    font-size: 2.4rem;
-  }
+	.social {
+		width: 48%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
 
-  footer {
-    font-size: 1.5rem;
-  }
-
-  .social {
-    width: 48%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  nav.social a {
-    display: flex;
-    margin: 2%, 2%;
-  }
-
-  footer .copyright {
-    text-align: center;
-    width: 100%;
-    margin: 1% 0;
-  }
+	nav.social a {
+		display: flex;
+		margin: 2%, 2%;
+	}
 }
 
-.contentImage img {
-  display: none;
+/* ======================================================================== */
+@media (min-width: 768px) {
+	header {
+		flex-direction: row;
+		align-items: center;
+	}
+	header .logoName {
+		width: 20%;
+	}
+	header .headerNav {
+		/* border: 1px solid black; */
+		width: 80%;
+	}
+	header .headerNav span {
+		height: 40px;
+	}
+	header .headerNav a {
+		font-size: 2rem;
+	}
+
+	.aboutProduct h2,
+	.aboutDevs h2 {
+		font-size: 2.4rem;
+		font-weight: bold;
+	}
+	.aboutProduct p,
+	.aboutDevs p {
+		font-size: 1.6rem;
+		line-height: 2.4rem;
+	}
+	.aboutProduct .gallery {
+		margin: 1% 0;
+		width: 100%;
+		height: 50vh;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.aboutProduct .gallery .galleryImg {
+		width: 40%;
+	}
+	.aboutProduct .gallery .galleryImg:nth-child(2) {
+		display: block;
+	}
+	/* .aboutProduct .gallery .galleryImg:nth-child(3) {
+		display: block;
+	} */
+	.cardContainer .card {
+		color: black;
+		background-image: none;
+		width: 100%;
+		height: 20%;
+		display: flex;
+		/* height: 30%; */
+	}
+
+	.card .cardText {
+		/* border: 1px solid black; */
+		border-radius: 0 20px 0 0;
+		margin: 0 0 0 1%;
+		line-height: 25px;
+		width: 100%;
+		height: auto;
+	}
+	.card .devName {
+		font-size: 3rem;
+		margin: 2% 0;
+	}
+	.card .devRole {
+		font-size: 2.4rem;
+	}
+	.card p {
+		font-size: 1.6rem;
+	}
+	.card .devPhoto {
+		/* border: 1px solid black; */
+		display: block;
+		width: 30%;
+		border-radius: 0 20px 0 20px;
+		margin: -50px 0 0 0;
+	}
+	.card:nth-child(5) .devPhoto {
+		width: 45%;
+	}
 }
 
-/* ===== 800px ===== */
-
+/* ======================================================================= */
 @media (min-width: 800px) {
-  header .logoName {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 25%;
-  }
+	i {
+		font-size: 2rem;
+	}
 
-  .logoName {
-    width: 100%;
-  }
+	.mContent {
+		margin-top: 6%;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
 
-  i {
-    font-size: 2rem;
-  }
+	.contentColumn {
+		font-size: 2rem;
+		line-height: 1.5;
+		color: rgba(48, 64, 77, 0.8);
+		width: 100%;
+	}
 
-  header .headerNav a {
-    font-size: 1rem;
-  }
-  .headerNav {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 1.2rem;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+	.contentImage img {
+		display: none;
+	}
 
-  .mContent {
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
+	.contentColumn h1 {
+		margin-top: 1%;
+		font-size: 3rem;
+	}
 
-  .contentColumn {
-    font-size: 2rem;
-    line-height: 1.5;
-    color: rgba(48, 64, 77, 0.8);
-    width: 100%;
-  }
+	.heroContainer h2 {
+		font-size: 1.8rem;
+	}
 
-  .contentImage img {
-    display: none;
-  }
+	.heroContainer p {
+		font-size: 2rem;
+	}
 
-  .contentColumn h1 {
-    margin-top: 1%;
-    font-size: 3rem;
-  }
+	.howReplateWorks {
+		width: 100%;
+	}
 
-  .heroContainer h2 {
-    font-size: 1.8rem;
-  }
+	.replateContent {
+		align-items: baseline;
+		width: 50%;
+	}
 
-  .heroContainer p {
-    font-size: 2rem;
-  }
+	.replateContent h2 {
+		font-size: 4rem;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
 
-  .howReplateWorks {
-    width: 100%;
-  }
+	.replateContent h3 {
+		font-size: 3rem;
+		margin-top: 1%;
+	}
 
-  .replateContent {
-    align-items: baseline;
-    width: 50%;
-  }
+	.replateContent p {
+		font-size: 1.8rem;
+	}
 
-  .replateContent h2 {
-    font-size: 4rem;
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
+	.step1,
+	.step2,
+	.step3 {
+		margin-left: 2%;
+		width: 80%;
+	}
 
-  .replateContent h3 {
-    font-size: 3rem;
-    margin-top: 1%;
-  }
+	.donateContent {
+		text-decoration: none;
+		align-items: baseline;
+		text-align: center;
+		width: 45%;
+	}
 
-  .replateContent p {
-    font-size: 1.8rem;
-  }
+	.donateContent a {
+		text-decoration: none;
+	}
 
-  .step1,
-  .step2,
-  .step3 {
-    margin-left: 2%;
-    width: 80%;
-  }
+	.donateContent i {
+		margin-bottom: 2%;
+		font-size: 4rem;
+	}
 
-  .donateContent {
-    text-decoration: none;
-    align-items: baseline;
-    text-align: center;
-    width: 45%;
-  }
+	.bannerContent1 h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .donateContent a {
-    text-decoration: none;
-  }
-
-  .donateContent i {
-    margin-bottom: 2%;
-    font-size: 4rem;
-  }
-
-  .bannerContent1 h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  .bannerContent1 p {
-    font-size: 1.8rem;
-  }
-  .bannerContent2 a {
-    font-size: 1.8rem;
-  }
-
-  .aboutProduct h2,
-  .aboutDevs h2 {
-    font-size: 4rem;
-    font-weight: bold;
-  }
-  .aboutProduct p,
-  .aboutDevs p {
-    font-size: 2.5rem;
-  }
-  .cardContainer .card {
-    color: black;
-    background-image: none;
-  }
-
-  .cardContainer .card3 {
-    height: auto;
-  }
-  .card .devName {
-    font-size: 4.6rem;
-  }
-  .card .devRole {
-    font-size: 3.5rem;
-  }
-  .card .devPhoto {
-    display: block;
-    width: 100%;
-    border-radius: 0 20px 0 20px;
-    margin: -50px 0 0 0;
-  }
+	.bannerContent1 p {
+		font-size: 1.8rem;
+	}
+	.bannerContent2 a {
+		font-size: 1.8rem;
+	}
 }
 
-/* ===== 1024px ===== */
-
+/* ======================================================================= */
 @media (min-width: 1024px) {
-  header .logoName {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 15%;
-  }
+	.mContent {
+		margin-top: 6%;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
 
-  .logoName {
-    width: 100%;
-  }
+	.contentColumn {
+		font-size: 2rem;
+		line-height: 1.5;
+		color: rgba(48, 64, 77, 0.8);
+		width: 48%;
+	}
 
-  i {
-    font-size: 2rem;
-  }
+	.contentImage {
+		display: flex;
+		padding: 5% 0;
+	}
 
-  .headerNav a {
-    font-size: 4rem;
-  }
-  .headerNav {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+	.contentImage img {
+		display: block;
+		width: 450px;
+		height: 450px;
+		border-radius: 50%;
+		filter: drop-shadow(0 0 0.2rem grey);
+	}
 
-  .mContent {
-    margin-top: 6%;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
+	.contentColumn h1 {
+		margin-top: 1%;
+		font-size: 3rem;
+	}
 
-  .contentColumn {
-    font-size: 2rem;
-    line-height: 1.5;
-    color: rgba(48, 64, 77, 0.8);
-    width: 48%;
-  }
+	.heroContainer h2 {
+		font-size: 1.8rem;
+	}
 
-  .contentImage {
-    display: flex;
-    padding: 5% 0;
-  }
+	.heroContainer p {
+		font-size: 2rem;
+	}
 
-  .contentImage img {
-    display: block;
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    filter: drop-shadow(0 0 0.2rem grey);
-  }
+	.howReplateWorks {
+		width: 100%;
+	}
 
-  .contentColumn h1 {
-    margin-top: 1%;
-    font-size: 3rem;
-  }
+	.replateContent {
+		align-items: baseline;
+	}
 
-  .heroContainer h2 {
-    font-size: 1.8rem;
-  }
+	.replateContent h2 {
+		font-size: 4rem;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
 
-  .heroContainer p {
-    font-size: 2rem;
-  }
+	.replateContent h3 {
+		font-size: 3rem;
+		margin-top: 1%;
+	}
 
-  .howReplateWorks {
-    width: 100%;
-  }
+	.replateContent p {
+		font-size: 1.8rem;
+	}
 
-  .replateContent {
-    align-items: baseline;
-  }
+	.step1,
+	.step2,
+	.step3 {
+		margin-left: 2%;
+		width: 80%;
+	}
 
-  .replateContent h2 {
-    font-size: 4rem;
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
+	.donateContent {
+		text-decoration: none;
+		align-items: baseline;
+		text-align: center;
+		width: 45%;
+	}
 
-  .replateContent h3 {
-    font-size: 3rem;
-    margin-top: 1%;
-  }
+	.donateContent a {
+		text-decoration: none;
+	}
 
-  .replateContent p {
-    font-size: 1.8rem;
-  }
+	.donateContent i {
+		margin-bottom: 2%;
+		font-size: 4rem;
+	}
 
-  .step1,
-  .step2,
-  .step3 {
-    margin-left: 2%;
-    width: 80%;
-  }
+	.bannerContent1 h2 {
+		font-size: 3rem;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
 
-  .donateContent {
-    text-decoration: none;
-    align-items: baseline;
-    text-align: center;
-    width: 45%;
-  }
+	.bannerContent1 p {
+		font-size: 1.8rem;
+	}
+	.bannerContent2 a {
+		font-size: 1.8rem;
+	}
+	header {
+		flex-direction: row;
+		align-items: center;
+	}
+	header .logoName img {
+		width: 50%;
+	}
+	header .headerNav {
+		/* border: 1px solid black; */
+		width: 80%;
+	}
+	header .headerNav span {
+		height: 40px;
+	}
+	header .headerNav a {
+		font-size: 2rem;
+	}
 
-  .donateContent a {
-    text-decoration: none;
-  }
+	.aboutProduct h2,
+	.aboutDevs h2 {
+		font-size: 2.4rem;
+		font-weight: bold;
+	}
+	.aboutProduct p,
+	.aboutDevs p {
+		font-size: 1.6rem;
+		line-height: 2.4rem;
+	}
+	.aboutProduct .gallery {
+		margin: 1% 0;
+		width: 100%;
+		height: 50vh;
+		display: flex;
+		justify-content: space-between;
+	}
+	.aboutProduct .gallery .galleryImg {
+		width: 32%;
+	}
+	.aboutProduct .gallery .galleryImg:nth-child(2) {
+		display: block;
+	}
+	.aboutProduct .gallery .galleryImg:nth-child(3) {
+		display: block;
+	}
+	.cardContainer .card {
+		color: black;
+		background-image: none;
+		width: 48%;
+		display: flex;
+		height: 62vh;
+	}
 
-  .donateContent i {
-    margin-bottom: 2%;
-    font-size: 4rem;
-  }
+	.card:nth-child(8) {
+		overflow: hidden;
+	}
 
-  .bannerContent1 h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+	.card .cardText {
+		/* border: 1px solid black; */
+		border-radius: 0 20px 0 0;
+		margin: 0 0 0 1%;
+		padding: 1%;
+		line-height: 25px;
+		width: 30%;
+		height: auto;
+	}
 
-  .bannerContent1 p {
-    font-size: 1.8rem;
-  }
-  .bannerContent2 a {
-    font-size: 1.8rem;
-  }
+	.card:nth-child(2) p,
+	.card:nth-child(6) p {
+		font-size: 1.3rem;
+	}
+	.card:nth-child(8) p {
+		font-size: 1.2rem;
+	}
+	.card .devName {
+		font-size: 2.6rem;
+		margin: 2% 0;
+	}
+	.card .devRole {
+		font-size: 2rem;
+	}
+	.card p {
+		font-size: 1.6rem;
+	}
 
-  .aboutProduct h2,
-  .aboutDevs h2 {
-    font-size: 4rem;
-  }
-  .aboutProduct p,
-  .aboutDevs p {
-    font-size: 2rem;
-  }
-  .card .devName {
-    font-size: 3rem;
-  }
-  .card .devRole {
-    font-size: 2.4rem;
-  }
-
-  footer {
-    font-size: 1.8rem;
-  }
-
-  .footerNav {
-    margin-bottom: 5%;
-  }
-
-  .social {
-    width: 48%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  nav.social a {
-    display: flex;
-    margin: 2%, 2%;
-  }
-
-  footer .copyright {
-    text-align: center;
-    width: 100%;
-    margin: 1% 0;
-  }
+	.card .devPhoto {
+		/* border: 1px solid black; */
+		display: block;
+		width: 70%;
+		border-radius: 0 20px 0 20px;
+	}
+	.card:nth-child(5) .devPhoto {
+		width: 70%;
+	}
+	.card:nth-child(8) .devPhoto {
+		margin-bottom: -200px;
+		object-fit: cover;
+		object-position: center;
+	}
 }
