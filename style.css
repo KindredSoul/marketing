@@ -136,9 +136,10 @@ html {
   box-sizing: border-box;
 }
 body {
+  font-size: 2rem;
   font-family: "Heebo", sans-serif;
+  color: #4f4f4f;
   text-decoration: none;
-  color: rgba(48, 64, 77, 0.8);
 }
 
 i {
@@ -159,11 +160,11 @@ header .logoName {
   display: flex;
   justify-content: center;
   /* border: 1px solid black; */
-  width: 15%;
+  width: 20%;
 }
 
 header .logoName img {
-  width: 50%;
+  width: 70%;
 }
 
 header .headerNav {
@@ -173,7 +174,6 @@ header .headerNav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2%;
-  font-size: 2rem;
 }
 header .headerNav span {
   border-right: thin solid gray;
@@ -181,7 +181,7 @@ header .headerNav span {
   height: 20px;
 }
 header .headerNav a {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   text-decoration: none;
   margin: 0 2%;
@@ -235,6 +235,10 @@ header .headerNav .btn:hover {
   background: #f0c692;
   font-size: 2rem;
   width: 100%;
+}
+
+.contentImage img {
+  display: none;
 }
 
 .replateTitle h2 {
@@ -355,7 +359,7 @@ footer {
   text-decoration: none;
   background-color: #fcb131;
   color: #fff;
-  padding: 2%;
+  /* padding: 2%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -381,7 +385,8 @@ footer div {
   flex-direction: column;
   align-items: center;
   width: 48%;
-  padding: 2%;
+  padding-top: 1%;
+  /* border: 1px solid black; */
 }
 
 .footerNav a {
@@ -393,256 +398,13 @@ footer div {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 1% 0;
+  /* border: 1px solid black; */
 }
 
 nav.social a {
   display: flex;
   margin: 2%, 2%;
-}
-
-footer .copyright {
-  text-align: center;
-  width: 100%;
-}
-
-/* =================== About Us Page Styles============= */
-.mainContent {
-  padding: 2%;
-}
-
-.aboutProduct {
-  /* border: 1px solid black; */
-  margin-bottom: 4%;
-  padding: 2%;
-  text-align: center;
-  border-radius: 0 20px 0 20px;
-  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
-}
-.aboutProduct h2,
-.aboutDevs h2 {
-  font-size: 3rem;
-  color: #ff5e00;
-}
-.aboutProduct p,
-.aboutDevs p {
-  font-size: 1.75rem;
-}
-
-.aboutDevs {
-  /* border: 1px solid black; */
-  text-align: center;
-  padding: 2% 3;
-  border-radius: 0 20px 0 20px;
-  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #ffffff00;
-}
-.aboutDevs .cardContainer {
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.cardContainer .card {
-  width: 45%;
-  margin: 3% 0;
-  color: white;
-  text-align: left;
-  background-size: cover;
-  background-position: center;
-  border-radius: 0 20px 0 20px;
-  box-shadow: 0 0 30px #e6e3e3ab, 0 0 30px #a8a6a68c;
-  overflow: hidden;
-}
-.cardContainer .card1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/brian_hague.png);
-}
-.cardContainer .card2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/ashton_turner.jpg);
-}
-.cardContainer .card3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/emilio_ramirez.jpg);
-  height: 250px;
-}
-.cardContainer .card4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/rohith_sachdeva.jpg);
-}
-.cardContainer .card5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/rod_hentringer.jpg);
-}
-.cardContainer .card6 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(Images/jabril_github.jpg);
-}
-.cardContainer .card7 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url();
-}
-.cardContainer .card8 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url();
-}
-
-.card .cardText {
-  margin: 4% 5%;
-  display: flex;
-  flex-direction: column;
-}
-.devName,
-.devRole,
-.card p {
-  margin: 1% 0;
-}
-.card .devName {
-  font-size: 2.5rem;
-}
-.card .devRole {
-  font-size: 2rem;
-}
-.card .devPhoto {
-  display: none;
-}
-
-/* ====================== Media Styles ================= */
-
-/* ===== 300px ===== */
-
-@media (min-width: 300px) {
-  i {
-    font-size: 2rem;
-  }
-
-  header .logoName {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 35%;
-  }
-
-  .logoName {
-    max-height: 150px;
-    width: auto;
-  }
-
-  header .headerNav a {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 1.5rem;
-  }
-
-  .contentColumn {
-    padding: 4%;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8rem;
-    line-height: 1.5;
-    color: rgba(48, 64, 77, 0.8);
-  }
-
-  .contentColumn h1 {
-    margin-top: 2%;
-    font-size: 2.5rem;
-  }
-
-  .heroContainer h2 {
-    font-size: 2.5rem;
-  }
-
-  .heroContainer p {
-    font-size: 1.8rem;
-  }
-
-  .howReplateWorks {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .replateContent {
-    width: 90%;
-  }
-
-  .replateContent h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  .replateContent p {
-    font-size: 1.8rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  .replateContent h3 {
-    font-size: 2rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  .step1,
-  .step2,
-  .step3 {
-    padding: 2%;
-    margin-left: 2%;
-    width: 90%;
-  }
-
-  .donateContent {
-    text-decoration: none;
-    align-items: baseline;
-    text-align: center;
-    width: 90%;
-    font-size: 1.8rem;
-  }
-
-  .donateContent i {
-    margin-bottom: 2%;
-    font-size: 4rem;
-  }
-
-  .donateContent a {
-    text-decoration: none;
-  }
-
-  .bannerContent1 h2 {
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 6%;
-  }
-
-  .bannerContent1 p {
-    font-size: 1.8rem;
-  }
-  .bannerContent2 a {
-    font-size: 1.8rem;
-  }
-
-  .footerNav {
-    margin-bottom: 5%;
-  }
-
-  .social {
-    width: 48%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  nav.social a {
-    display: flex;
-    margin: 2%, 2%;
-  }
-
-  footer .copyright {
-    text-align: center;
-    width: 100%;
-    margin: 1% 0;
-  }
 }
 
 /* =================== About Us Page Styles============= */
@@ -755,6 +517,10 @@ footer .copyright {
   height: auto;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
+}
+.card .cardText::-webkit-scrollbar {
+  display: none;
 }
 .card .devName {
   font-size: 2rem;
@@ -779,11 +545,17 @@ footer .copyright {
   margin: 1% 0;
 }
 
-/* ===== 500px ===== */
-
-@media (min-width: 500px) {
+/* =================================== Media Styles ================= */
+@media (min-width: 300px) {
   i {
     font-size: 2rem;
+  }
+
+  header .logoName {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 25%;
   }
 
   .logoName {
@@ -794,7 +566,127 @@ footer .copyright {
   header .headerNav a {
     margin-top: 2%;
     margin-bottom: 2%;
+    font-size: 1.2rem;
+  }
+
+  .contentColumn {
+    padding: 4%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: rgba(48, 64, 77, 0.8);
+  }
+
+  /* .contentImage img {
+		display: none;
+	} */
+
+  .contentColumn h1 {
+    margin-top: 2%;
+    font-size: 2.5rem;
+  }
+
+  .heroContainer h2 {
+    font-size: 2.5rem;
+  }
+
+  .heroContainer p {
+    font-size: 1.8rem;
+  }
+
+  .howReplateWorks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .replateContent {
+    width: 90%;
+  }
+
+  .replateContent h2 {
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .replateContent p {
+    font-size: 1.8rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .replateContent h3 {
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .step1,
+  .step2,
+  .step3 {
+    padding: 2%;
+    margin-left: 2%;
+    width: 90%;
+  }
+
+  .donateContent {
+    text-decoration: none;
+    align-items: baseline;
+    text-align: center;
+    width: 90%;
+    font-size: 1.8rem;
+  }
+
+  .donateContent i {
+    margin-bottom: 2%;
+    font-size: 4rem;
+  }
+
+  .donateContent a {
+    text-decoration: none;
+  }
+
+  .bannerContent1 h2 {
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 6%;
+  }
+
+  .bannerContent1 p {
+    font-size: 1.8rem;
+  }
+  .bannerContent2 a {
+    font-size: 1.8rem;
+  }
+
+  footer {
     font-size: 1.5rem;
+  }
+
+  .footerNav {
+    margin-bottom: 5%;
+  }
+
+  .social {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav.social a {
+    display: flex;
+    margin: 2%, 2%;
+  }
+}
+
+/* ================================================================= */
+@media (min-width: 500px) {
+  i {
+    font-size: 2rem;
   }
 
   .mContent {
@@ -811,9 +703,9 @@ footer .copyright {
     width: 100%;
   }
 
-  .contentImage img {
-    display: none;
-  }
+  /* .contentImage img {
+		display: none;
+	} */
 
   .contentColumn h1 {
     margin-top: 1%;
@@ -888,6 +780,9 @@ footer .copyright {
     font-size: 1.8rem;
   }
 
+  header .headerNav a {
+    font-size: 1.8rem;
+  }
   .aboutProduct h2,
   .aboutDevs h2 {
     font-size: 4rem;
@@ -913,7 +808,7 @@ footer .copyright {
   }
 
   footer {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
   }
 
   .social {
@@ -927,25 +822,26 @@ footer .copyright {
     display: flex;
     margin: 2%, 2%;
   }
-
-  footer .copyright {
-    text-align: center;
-    width: 100%;
-    margin: 1% 0;
-  }
 }
 
-.contentImage img {
-  display: none;
-}
-
-/* ===== 768px ===== about us*/
-
+/* ======================================================================== */
 @media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+  }
+  header .logoName {
+    width: 20%;
+  }
+  header .headerNav {
+    /* border: 1px solid black; */
+    width: 80%;
+  }
+  header .headerNav span {
+    height: 40px;
+  }
   header .headerNav a {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .aboutProduct h2,
@@ -972,8 +868,8 @@ footer .copyright {
     display: block;
   }
   /* .aboutProduct .gallery .galleryImg:nth-child(3) {
-  display: block;
-} */
+		display: block;
+	} */
   .cardContainer .card {
     color: black;
     background-image: none;
@@ -1013,36 +909,10 @@ footer .copyright {
   }
 }
 
-/* ===== 800px ===== */
-
+/* ======================================================================= */
 @media (min-width: 800px) {
-  header .logoName {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 25%;
-  }
-
-  .logoName {
-    width: 100%;
-  }
-
   i {
     font-size: 2rem;
-  }
-
-  header .headerNav a {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 1.5rem;
-  }
-
-  .headerNav {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 1.2rem;
-    margin-left: 10%;
-    margin-right: 10%;
   }
 
   .mContent {
@@ -1135,66 +1005,10 @@ footer .copyright {
   .bannerContent2 a {
     font-size: 1.8rem;
   }
-
-  .aboutProduct h2,
-  .aboutDevs h2 {
-    font-size: 4rem;
-    font-weight: bold;
-  }
-  .aboutProduct p,
-  .aboutDevs p {
-    font-size: 2.5rem;
-  }
-  .cardContainer .card {
-    color: black;
-    background-image: none;
-  }
-
-  .cardContainer .card3 {
-    height: auto;
-  }
-  .card .devName {
-    font-size: 4.6rem;
-  }
-  .card .devRole {
-    font-size: 3.5rem;
-  }
-  .card .devPhoto {
-    display: block;
-    width: 100%;
-    border-radius: 0 20px 0 20px;
-    margin: -50px 0 0 0;
-  }
 }
 
-/* ===== 1024px ===== */
-
+/* ======================================================================= */
 @media (min-width: 1024px) {
-  header .logoName {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 15%;
-  }
-
-  .logoName {
-    width: 100%;
-  }
-
-  i {
-    font-size: 2rem;
-  }
-
-  .headerNav a {
-    font-size: 3rem;
-  }
-  .headerNav {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
   .mContent {
     margin-top: 6%;
     display: flex;
@@ -1293,6 +1107,23 @@ footer .copyright {
   .bannerContent2 a {
     font-size: 1.8rem;
   }
+  header {
+    flex-direction: row;
+    align-items: center;
+  }
+  header .logoName img {
+    width: 50%;
+  }
+  header .headerNav {
+    /* border: 1px solid black; */
+    width: 80%;
+  }
+  header .headerNav span {
+    height: 40px;
+  }
+  header .headerNav a {
+    font-size: 2rem;
+  }
 
   .aboutProduct h2,
   .aboutDevs h2 {
@@ -1327,6 +1158,7 @@ footer .copyright {
     display: flex;
     height: 62vh;
   }
+
   .card:nth-child(8) {
     overflow: hidden;
   }
@@ -1339,7 +1171,6 @@ footer .copyright {
     line-height: 25px;
     width: 30%;
     height: auto;
-    overflow: scroll;
   }
 
   .card:nth-child(2) p,
@@ -1373,31 +1204,5 @@ footer .copyright {
     margin-bottom: -200px;
     object-fit: cover;
     object-position: center;
-  }
-
-  footer {
-    font-size: 1.8rem;
-  }
-
-  .footerNav {
-    margin-bottom: 5%;
-  }
-
-  .social {
-    width: 48%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  nav.social a {
-    display: flex;
-    margin: 2%, 2%;
-  }
-
-  footer .copyright {
-    text-align: center;
-    width: 100%;
-    margin: 1% 0;
   }
 }
