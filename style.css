@@ -86,7 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1px solid grey;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -180,7 +180,7 @@ header .headerNav span {
   height: 20px;
 }
 header .headerNav a {
-  font-size: 1rem;
+  font-size: 5rem;
   text-align: center;
   text-decoration: none;
   margin: 0 2%;
@@ -243,6 +243,16 @@ header .headerNav .btn:hover {
   text-align: center;
 }
 
+.heroContainer {
+  margin-top: 13%;
+}
+.heroContainer h2 a {
+  margin-top: 5%;
+  color: coral;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
 .howReplateWorks {
   display: flex;
   background: #f0c692;
@@ -281,12 +291,17 @@ header .headerNav .btn:hover {
   font-size: 5rem;
 }
 
-.donateContent a {
+.donateContent {
+  width: 45%;
+}
+.donateContent a h3 {
   text-decoration: none;
+  color: rgba(48, 64, 77, 0.8);
 }
 
 .howReplateWorks h3 {
   font-size: 3rem;
+  margin-bottom: 2%;
 }
 
 .step1,
@@ -663,7 +678,7 @@ footer .copyright {
   header .headerNav a {
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .mContent {
@@ -968,13 +983,12 @@ footer .copyright {
     font-size: 2rem;
   }
 
-  header .headerNav a {
-    font-size: 1.5rem;
+  .headerNav a {
+    font-size: 4rem;
   }
   .headerNav {
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 1.5rem;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -1053,7 +1067,7 @@ footer .copyright {
     text-decoration: none;
     align-items: baseline;
     text-align: center;
-    width: 50%;
+    width: 45%;
   }
 
   .donateContent a {
